@@ -1,0 +1,982 @@
+-- パスワードロック機能
+local PASSWORD = "tapi"  -- 任意のパスワードに変更してください
+
+function passwordCheck()
+    local input = gg.prompt({"パスワードを入力してください\n\nパスワード(使用権限)はDiscordで購入出来ます"}, nil, {"text"})
+    if input == nil or input[1] ~= PASSWORD then
+        gg.alert("❌ パスワードが間違っています!!!\n\nスクリプトを終了します。")
+        os.exit()
+    else
+        gg.alert("✅ 認証に成功しました\n\n📱現在のアプリバージョン〘4.141.0〙\n\n🈲2次配布が発覚した場合スクリプトを無効化します\n\n👤質問はDiscordまで")
+    end
+end
+
+passwordCheck()  -- 起動時に実行
+local config = {}
+local configKeys = {}
+local savedConfigs = {} -- サブメニューごとの状態を保存
+
+local subConfigs = {
+    Main = {
+        {
+            Func = function(value) Baisokuu(value) end,
+            Type = "InputValue",
+            Name = "倍速[1;5]",
+            value = 1,
+            State = true,
+        },
+        {
+            Func = function(value) Tienn(value) end,
+            Type = "InputValue",
+            Name = "遅延[1;4]",
+            value = 1,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "1.5倍速",
+            lib = "libSGF.so",
+            Offset = 0x2922CE4,
+            ONHex = "00 28 28 1E",
+            OFFHex = "EB FE FF 54",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "ワンパン",
+            lib = "libSGF.so",
+            Offset = 0x325F754,
+            ONHex = "80 00 00 54",
+            OFFHex = "81 00 00 54",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "9万ワンパン",
+            lib = "libSGF.so",
+            Offset = 0x325F740,
+            ONHex = "F3 07 11 32",
+            OFFHex = "F3 03 01 2A",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "無敵",
+            lib = "libSGF.so",
+            Offset = 0x34589C4,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FF C3 02 D1",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "軽量化",
+            lib = "libSGF.so",
+            Offset = 0x28FECD4,
+            ONHex = "81 62 80 52",
+            OFFHex = "81 00 80 52",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "リザルトスキップ",
+            lib = "libSGF.so",
+            Offset = 0x344BAA4,
+            ONHex = "1F 04 00 71",
+            OFFHex = "1F 08 00 71",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "無効化一括",
+            lib = "libSGF.so",
+            Offset = {0x3A7C1EC,
+                      0x496FEB8,--キャラクター無効
+                      0x44E5744,--フレアイコン
+                      0x3A7C1EC,
+                      0x3B121F0,
+                      0x3B8CBA4,
+                      0x3F5AA5C,
+                      0x3F631D0}, -- 複数オフセット
+            ONHex = {"C0 03 5F D6",
+                      "C0 03 5F D6",--キャラクター無効
+                      "C0 03 5F D6",
+                      "C0 03 5F D6",
+                      "C0 03 5F D6",
+                      "29 02 00 35",
+                      "68 07 00 35",
+                      "21 03 00 35"},
+            OFFHex = {"FF 83 03 D1",
+                       "FF 83 01 D1",--キャラクター無効
+                       "FF 03 03 D1",
+                       "FF 83 06 D1",
+                       "FF 43 04 D1",
+                       "28 02 00 34",
+                       "68 07 00 34",
+                       "21 03 00 34",
+                       },
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "スコアカンスト",
+            lib = "libSGF.so",
+            Offset = 0x34588FC,
+            ONHex = "01 AC 15 8B",
+            OFFHex = "01 00 15 8B",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = function() MainMenu() end,
+            Type = "Toggle",
+            Name = "戻る",
+            value = false,
+            State = true,
+        }
+    },
+    Puzzle = {
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "即勝利",
+            lib = "libSGF.so",
+            Offset = 0x345AF64,
+            ONHex = "41 01 00 54",
+            OFFHex = "40 01 00 54",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "即フィーバー",
+            lib = "libSGF.so",
+            Offset = 0x34AF1D4,
+            ONHex = "3F 05 00 71",
+            OFFHex = "3F 01 00 71",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "無限フィーバー",
+            lib = "libSGF.so",
+            Offset = 0x3EEC794,
+            ONHex = "3F 05 00 71",
+            OFFHex = "3F 01 00 71",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "即技",
+            lib = "libSGF.so",
+            Offset = 0x2E8CA9C,
+            ONHex = "1F 20 03 D5",
+            OFFHex = "01 01 27 1E",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "ボナ玉生成",
+            lib = "libSGF.so",
+            Offset = 0x363B1F8,
+            ONHex = "BF 01 0D 6B",
+            OFFHex = "BF 01 08 6B",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "全ぷに繋がる",
+            lib = "libSGF.so",
+            Offset = 0x323407C,
+            ONHex = "08 1C A0 4E",
+            OFFHex = "80 FC 07 36",
+            value = false,
+            State = true,
+        },
+        {
+            Func = function() MainMenu() end,
+            Type = "Toggle",
+            Name = "戻る",
+            value = false,
+            State = true,
+        }
+    },
+    Disable = {
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "キャラクター無効",
+            lib = "libSGF.so",
+            Offset = 0x496FEB8,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FF 83 01 D1",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "虫眼鏡無効",
+            lib = "libSGF.so",
+            Offset = 0x3B8CC18,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FF 83 06 D1",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "フレアイコン無効",
+            lib = "libSGF.so",
+            Offset = 0x3B12264,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FF 03 03 D1",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "封印無効",
+            lib = "libSGF.so",
+            Offset = 0x3BA96D4,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FF 43 04 D1",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "鍵演出無効",
+            lib = "libSGF.so",
+            Offset = 0x3F644C4,
+            ONHex = "21 03 00 35",
+            OFFHex = "21 03 00 34",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "お知らせ無効",
+            lib = "libSGF.so",
+            Offset = 0x3F5AAB8,
+            ONHex = "28 02 00 35",
+            OFFHex = "28 02 00 34",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "スコアタランキング無効",
+            lib = "libSGF.so",
+            Offset = 0x48f930c,
+            ONHex = "28 03 00 35",
+            OFFHex = "28 03 00 34",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "ゲート演出無効",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "トーナメント無効",
+            value = false,
+            State = true,
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "ログインスタンプ無効",
+            lib = "libSGF.so",
+            Offset = 0x3F6322C,
+            ONHex = "68 07 00 35",
+            OFFHex = "68 07 00 34",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "ランキングボタン無効",
+            lib = "libSGF.so",
+            Offset = 0x44E0BD8,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FD 7B BA A9",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = function() MainMenu() end,
+            Type = "Toggle",
+            Name = "戻る",
+            value = false,
+            State = true,
+        }
+    },
+    Other = {
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "104万ダメ",
+            lib = "libSGF.so",
+            Offset = 0x325F784,
+            ONHex = "13 02 A0 52",
+            OFFHex = "F3 03 01 2A",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "イベステゆうびん解放",
+            lib = "libSGF.so",
+            Offset = {0x3CDC228,
+                      0x44e01cc}, 
+            ONHex = {"E1 03 1F 2A",
+                      "C0 03 5F D6"},
+            OFFHex = {"21 00 80 52",
+                       "FF 03 01 D1"},
+            value = false,
+            State = true,
+            ToggleStatus = true
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "チュートリアル無効",
+            lib = "libSGF.so",
+            Offset = 0x5151274,
+            ONHex = "00 00 00 00",
+            OFFHex = "01 01 01 01",
+            value = false,
+            State = true,
+            ToggleStatus = true -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "スコアタ時間停止",
+            lib = "libSGF.so",
+            Offset = 0x395BE40,
+            ONHex = "20 00 80 52",
+            OFFHex = "E0 03 13 2A",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "ログアウト[全機種対応]",
+            lib = "libSGF.so",
+            Offset = 0x37D6A18,
+            ONHex = "D4 00 00 B4",
+            OFFHex = "D4 00 00 B5",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = function() SaveMenus() end,
+            Type = "Toggle",
+            Name = "機能保存",
+            value = false,
+            State = true,
+        },
+        {
+            Func = function() PopMenus() end,
+            Type = "Toggle",
+            Name = "機能復元",
+            value = false,
+            State = true,
+        },
+        {
+            Func = function() MainMenu() end,
+            Type = "Toggle",
+            Name = "戻る",
+            value = false,
+            State = true,
+        }
+    },
+    Drop = {
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "妖怪確定ドロップ",
+            lib = "libSGF.so",
+            Offset = 0x3956FB8,
+            ONHex = "20 00 80 52",
+            OFFHex = "E0 03 1F 2A",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "確定ドロップ無効",
+            lib = "libSGF.so",
+            Offset = 0x3956F64,
+            ONHex = "33 00 80 52",
+            OFFHex = "F3 03 1F 2A",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "アイテムドロップ無効",
+            lib = "libSGF.so",
+            Offset = 0x3956B9C,
+            ONHex = "C0 03 5F D6",
+            OFFHex = "FD 7B BC A9",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = nil,
+            Type = "Toggle",
+            Name = "鍵ドロップ無効",
+            lib = "libSGF.so",
+            Offset = 0x3F54924,
+            ONHex = "E2 03 1F 2A",
+            OFFHex = "E2 03 00 2A",
+            value = false,
+            State = true,
+            ToggleStatus = false -- 個別のToggleStatus
+        },
+        {
+            Func = function() MainMenu() end,
+            Type = "Toggle",
+            Name = "戻る",
+            value = false,
+            State = true,
+        }
+    }
+}
+
+-- 倍速処理関数
+function Baisokuu(value)
+    local hexValues = {
+        [1] = "EB FE FF 54",
+        [2] = "00 10 28 1E",
+        [3] = "00 D0 28 1E",
+        [4] = "00 50 28 1E",
+        [5] = "00 10 2A 1E"
+    }
+
+    if hexValues[value] then
+        setHexMemory("libSGF.so", 0x2922CE4, hexValues[value])
+        gg.toast("倍速: " .. (value == 1 and "OFF" or value .. "倍速を設定しました。"))
+    else
+        gg.alert("エラー: 無効な倍速値です！ (入力値: " .. tostring(value) .. ")")
+    end
+end
+
+-- 遅延処理関数
+function Tienn(value)
+    local hexValues = {
+        [1] = "00 18 28 1E",
+        [2] = "00 50 2A 1E",
+        [3] = "00 D0 28 1E",
+        [4] = "00 10 28 1E"
+    }
+
+    if hexValues[value] then
+        setHexMemory("libSGF.so", 0x3081850, hexValues[value])
+        gg.toast("遅延: " .. (value == 1 and "OFF" or value .. "を設定しました。"))
+    else
+        gg.alert("エラー: 無効な遅延値です！ (入力値: " .. tostring(value) .. ")")
+    end
+end
+
+function isim(lib)
+    -- 保存されたライブラリ情報を読み込む
+    local savedLib = loadSavedLibrary()
+    if savedLib then
+        lib = savedLib -- 保存されたライブラリを使用
+    end
+
+    local ranges = gg.getRangesList(lib or 'libSGF.so') -- 指定された lib が存在しない場合 'libSGF.so' を使用
+    if #ranges == 0 then
+        gg.alert("Error: 指定されたライブラリ (" .. lib .. ") が見つかりません。代替ライブラリ arm64_v8a.apk を使用します。")
+        
+        -- arm64_v8a.apk の最初のライブラリを使用
+        lib = 'arm64_v8a.apk'  -- arm64_v8a.apk 内の実際のライブラリファイル名を指定
+        ranges = gg.getRangesList(lib)
+        
+        -- arm64_v8a.apk にライブラリが含まれている場合、最初のライブラリを選択
+        if #ranges > 0 then
+            -- arm64_v8a.apk 内のライブラリの最初の範囲を使用
+            lib = ranges[1].name  -- 最初のライブラリ名を取得
+            saveLibrary(lib)  -- ライブラリを保存
+        else
+            gg.alert("Error: arm64_v8a.apk にライブラリが見つかりません。")
+            return nil, nil
+        end
+    end
+
+    -- ライブラリが見つからない場合
+    if #ranges == 0 then
+        gg.alert("Error: 代替ライブラリ " .. lib .. " が見つかりません。")
+        return nil, nil
+    end
+
+    -- ライブラリの範囲を検索
+    for _, range in ipairs(ranges) do
+        if range.state == "Xa" then
+            startAddress = range.start
+            endAddress = range['end']
+            return startAddress, endAddress
+        end
+    end
+
+    gg.alert("Error: " .. lib .. " の範囲が見つかりません。")
+    return nil, nil
+end
+
+-- ライブラリ情報を保存する関数
+function saveLibrary(lib)
+    local filePath = "/storage/emulated/0/PuniChangeLibrary.lua"
+    local file = io.open(filePath, "w")
+    if file then
+        file:write("return '" .. lib .. "'") -- ライブラリ名を保存
+        file:close()
+        gg.toast("ライブラリ " .. lib .. " が保存されました。")
+    else
+        gg.alert("エラー: ライブラリ情報の保存に失敗しました。")
+    end
+end
+
+function loadSavedLibrary()
+    local filePath = "/storage/emulated/0/PuniChangeLibrary.lua"
+    local file = io.open(filePath, "r")
+    
+    -- ファイルが存在する場合のみ読み込む
+    if file then
+        local savedData = file:read("*all")
+        file:close()
+        local success, lib = pcall(load(savedData))
+        
+        -- 読み込み成功した場合はライブラリ情報を返す
+        if success then
+            return lib
+        else
+            gg.alert("エラー: 保存されたライブラリ情報の読み込みに失敗しました。")
+            return nil
+        end
+    else
+        -- ファイルが見つからない場合は無視する
+        return nil
+    end
+end
+
+-- トグル処理の自動化（複数オフセット対応）
+local function autoToggle(entry)
+    if not entry.lib or not entry.Offset or not entry.ONHex or not entry.OFFHex then return end
+    if type(entry.Offset) ~= "table" then
+        entry.Offset = {entry.Offset} -- 単一値を配列に変換
+    end
+    if type(entry.ONHex) ~= "table" then
+        entry.ONHex = {entry.ONHex}
+    end
+    if type(entry.OFFHex) ~= "table" then
+        entry.OFFHex = {entry.OFFHex}
+    end
+
+    entry.value = not entry.value
+    for i, offset in ipairs(entry.Offset) do
+        local hex = entry.value and (entry.ONHex[i] or entry.ONHex[1]) or (entry.OFFHex[i] or entry.OFFHex[1])
+        local success = setHexMemory(entry.lib, offset, hex)
+        if not success then
+        end
+    end
+
+    gg.toast(entry.Name .. (entry.value and " ⟬ON⟭" or " ⟬OFF⟭"))
+end
+
+-- メモリを設定する関数（オフセットごとにHex値を設定）
+function setHexMemory(libName, offset, hex)
+    local startAddress = isim(libName)
+    if not startAddress then return false end
+    local values = {}
+    local index = 0
+    for byte in string.gmatch(hex, "%S%S") do
+        table.insert(values, {address = startAddress + offset + index, flags = gg.TYPE_BYTE, value = byte .. "r"})
+        index = index + 1
+    end
+    local success = gg.setValues(values)
+    return type(success) ~= "string" -- 成功の場合は true を返す
+end
+
+-- 設定変更メニュー
+function editHexValues(entry)
+    if type(entry.Offset) ~= "table" then
+        entry.Offset = {entry.Offset}
+    end
+    if type(entry.ONHex) ~= "table" then
+        entry.ONHex = {entry.ONHex}
+    end
+    if type(entry.OFFHex) ~= "table" then
+        entry.OFFHex = {entry.OFFHex}
+    end
+
+    local prompts = {}
+    local defaults = {}
+
+    for i, offset in ipairs(entry.Offset) do
+        table.insert(prompts, string.format("Offset 0x%X ONHex", offset))
+        table.insert(defaults, entry.ONHex[i] or entry.ONHex[1])
+        table.insert(prompts, string.format("Offset 0x%X OFFHex", offset))
+        table.insert(defaults, entry.OFFHex[i] or entry.OFFHex[1])
+    end
+
+    local result = gg.prompt(prompts, defaults)
+    if result then
+        for i, offset in ipairs(entry.Offset) do
+            entry.ONHex[i] = result[2 * i - 1]
+            entry.OFFHex[i] = result[2 * i]
+        end
+        gg.toast("Hex値を更新しました！")
+    else
+        gg.alert("Hex値の変更をキャンセルしました。")
+    end
+end
+
+-- スクリプト実行時の自動実行
+function executeOnStart()
+    local subMenus = getDynamicSubConfigs() -- サブメニューを動的に取得
+    for _, subMenu in ipairs(subMenus) do
+        initializeConfig(subMenu)
+        for _, key in ipairs(configKeys) do
+            local entry = config[key]
+            -- ToggleStatus が false の場合はスキップ
+            if entry.ToggleStatus == false then
+            else
+                if entry.Type == "Toggle" then
+                    autoToggle(entry)
+                elseif entry.Func then
+                    entry.Func(entry.value)
+                end
+            end
+        end
+    end
+end
+
+-- メニューの結果を処理
+function handleMenuResult(result)
+    if not result then return false end
+    local index = 1
+    for _, key in ipairs(configKeys) do
+        local entry = config[key]
+        if entry.State then -- ToggleStatusのチェックを削除
+            if entry.Type == "Toggle" then
+                if result[index] ~= entry.value then
+                    if entry.Func then
+                        entry.Func()
+                    else
+                        autoToggle(entry)
+                    end
+                end
+            elseif entry.Type == "InputValue" then
+                local numValue = tonumber(result[index])
+                if numValue and numValue ~= entry.value then
+                    entry.value = numValue
+                    if entry.Func then
+                        entry.Func(numValue)
+                    end
+                elseif not numValue then
+                    gg.alert(entry.Name .. " の値が無効です")
+                    return false
+                end
+            end
+        end
+        index = index + 1
+    end
+    return true
+end
+
+-- 設定の初期化
+function initializeConfig(subMenu)
+    if not savedConfigs[subMenu] then
+        savedConfigs[subMenu] = {configKeys = {}, config = {}}
+        local selectedConfig = subConfigs[subMenu]
+        if not selectedConfig then
+            gg.alert("Error: Undefined subMenu '" .. subMenu .. "'")
+            return
+        end
+        for _, item in ipairs(selectedConfig) do
+            -- ToggleStatusが未設定の場合、初期値をfalseに設定
+            if item.ToggleStatus == nil then
+                item.ToggleStatus = false
+            end
+            savedConfigs[subMenu].config[item.Name] = item
+            table.insert(savedConfigs[subMenu].configKeys, item.Name)
+        end
+    end
+
+    config = savedConfigs[subMenu].config
+    configKeys = savedConfigs[subMenu].configKeys
+end
+
+-- サブメニューを自動取得する関数
+function getDynamicSubConfigs()
+    local subMenuKeys = {}
+    for subMenuName, _ in pairs(subConfigs) do
+        table.insert(subMenuKeys, subMenuName)
+    end
+    return subMenuKeys
+end
+
+
+-- メニューの生成
+function generateMenu()
+    local prompts, defaults, types = {}, {}, {}
+    for _, key in ipairs(configKeys) do
+        local entry = config[key]
+        table.insert(prompts, entry.Name)
+        table.insert(defaults, entry.value)
+        table.insert(types, entry.Type == "Toggle" and "checkbox" or "number")
+    end
+    return prompts, defaults, types
+end
+
+-- メインメニュー
+function MainMenu()
+    local menu = gg.choice({
+    "メインメニュー", 
+    "パズルメニュー", 
+    "無効化メニュー", 
+    "サブメニュー",
+    "ドロップメニュー", 
+    "終了"}, nil, "😎TAPIScript😜\n📱AppName:ぷにぷに\n2次配布が発覚した場合Scliptを無効化します")
+    if menu == 1 then
+        SubMenu("Main")
+    elseif menu == 2 then
+        SubMenu("Puzzle")
+    elseif menu == 3 then
+        SubMenu("Disable")
+    elseif menu == 4 then
+        SubMenu("Other")
+    elseif menu == 5 then
+        SubMenu("Drop")
+    elseif menu == 6 then
+        os.exit()
+    end
+end
+
+-- テーブルを文字列化する関数
+function serializeTable(tbl, indent)
+    indent = indent or ""
+    local result = "{\n"
+    local nextIndent = indent .. "  "
+    for key, value in pairs(tbl) do
+        local formattedKey = type(key) == "string" and string.format("[%q]", key) or string.format("[%s]", key)
+        if type(value) == "table" then
+            result = result .. string.format("%s%s = %s,\n", nextIndent, formattedKey, serializeTable(value, nextIndent))
+        else
+            local formattedValue = type(value) == "string" and string.format("%q", value) or tostring(value)
+            result = result .. string.format("%s%s = %s,\n", nextIndent, formattedKey, formattedValue)
+        end
+    end
+    result = result .. indent .. "}"
+    return result
+end
+
+-- 設定を保存する
+function SaveMenus()
+    local saveFilePath = "/storage/emulated/0/ぷにぷにSavedmenu.lua"
+    local savedData = {}
+
+    -- 現在のサブメニュー状態を保存
+    for subMenuName, subMenuItems in pairs(subConfigs) do
+        savedData[subMenuName] = {}
+        for _, item in ipairs(subMenuItems) do
+            table.insert(savedData[subMenuName], {
+                Name = item.Name,
+                Type = item.Type,
+                Value = item.value -- 現在の値を保存
+            })
+        end
+    end
+
+    -- 保存ファイルに書き込む
+    local file = io.open(saveFilePath, "w")
+    if not file then
+        gg.alert("エラー: 設定を保存できません。\nファイルを開けませんでした。")
+        return
+    end
+
+    file:write("return " .. serializeTable(savedData))
+    file:close()
+
+    gg.toast("機能が保存されました。")
+end
+
+-- 設定を復元して状態を変更する
+function PopMenus()
+    local saveFilePath = "/storage/emulated/0/ぷにぷにSavedmenu.lua"
+
+    -- ファイルを開いて内容を読み込む
+    local file = io.open(saveFilePath, "r")
+    if not file then
+        gg.alert("エラー: 保存された設定が見つかりません。\nファイルが存在しません。")
+        return
+    end
+
+    local fileContent = file:read("*all")
+    file:close()
+
+    -- ファイル内容を Lua テーブルとして読み込む
+    local success, savedData = pcall(load(fileContent))
+    if not success or type(savedData) ~= "table" then
+        gg.alert("エラー: 保存された設定が無効です。\nデータを読み込めません。")
+        return
+    end
+
+    -- 保存された設定を反映して状態を変更
+    for subMenuName, savedSubMenu in pairs(savedData) do
+        local currentSubMenu = subConfigs[subMenuName]
+        if currentSubMenu then
+            for _, savedItem in ipairs(savedSubMenu) do
+                for _, currentItem in ipairs(currentSubMenu) do
+                    if currentItem.Name == savedItem.Name then
+                        -- 値が異なる場合のみ変更を適用
+                        if currentItem.value ~= savedItem.Value then
+                            currentItem.value = savedItem.Value
+
+                            -- 状態変更を反映
+                            if currentItem.Type == "Toggle" then
+                                if currentItem.Func then
+                                    currentItem.Func() -- トグルの状態を変更
+                                else
+                                    -- トグルのメモリ変更
+                                    local hex = savedItem.Value and currentItem.ONHex or currentItem.OFFHex
+                                    local success = setHexMemory(currentItem.lib, currentItem.Offset, hex)
+                                    if not success then
+                                        gg.alert("エラー: " .. currentItem.Name .. " の状態を変更できませんでした。")
+                                    end
+                                end
+                            elseif currentItem.Type == "InputValue" then
+                                if currentItem.Func then
+                                    currentItem.Func(currentItem.value) -- 入力値を適用して実行
+                                end
+                            end
+                        end
+                        break
+                    end
+                end
+            end
+        else
+            gg.alert("警告: サブメニュー '" .. subMenuName .. "' が見つかりません。スキップします。")
+        end
+    end
+
+    gg.toast("保存された設定が復元されました。")
+end
+
+-- サブメニューを順番通り取得
+function getDynamicSubConfigs()
+    local subMenuKeys = {}
+    for subMenuName, _ in pairs(subConfigs) do
+        table.insert(subMenuKeys, subMenuName)
+    end
+    table.sort(subMenuKeys) -- 必要に応じてソート（任意）
+    return subMenuKeys
+end
+
+-- テーブルを Lua テーブル形式で文字列化する関数
+function serializeTable(tbl, depth)
+    depth = depth or 0
+    local indent = string.rep("    ", depth)
+    local lines = {"{"}
+
+    for k, v in pairs(tbl) do
+        local key = type(k) == "string" and string.format("%q", k) or k
+        local value
+        if type(v) == "table" then
+            value = serializeTable(v, depth + 1)
+        elseif type(v) == "string" then
+            value = string.format("%q", v)
+        else
+            value = tostring(v)
+        end
+        table.insert(lines, indent .. "    [" .. key .. "] = " .. value .. ",")
+    end
+
+    table.insert(lines, indent .. "}")
+    return table.concat(lines, "\n")
+end
+
+-- サブメニュー処理
+function SubMenu(subMenu)
+    initializeConfig(subMenu)
+    local prompts, defaults, types = generateMenu()
+    local result = gg.prompt(prompts, defaults, types)
+    if not handleMenuResult(result) then return end
+end
+
+-- メインループ
+executeOnStart() -- スクリプト実行時に一度だけ実行される
+loadSavedLibrary()
+
+while true do
+    if gg.isVisible(true) then
+        gg.setVisible(false)
+        MainMenu()
+    end
+    gg.sleep(100)
+end

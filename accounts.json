@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "email": "abc",
+            "password": "abc"
+        },
+        {
+            "email": "\u305f\u3074",
+            "password": "tapi"
+        },
+        {
+            "email": "tapisan",
+            "password": "tapi"
+        },
+        {
+            "email": "jam",
+            "password": "jam"
+        },
+        {
+            "email": "mod",
+            "password": "tapi"
+        }
+    ]
+}
