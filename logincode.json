@@ -1,6 +1,15 @@
 {
   "codes": [
-    "0S6IDD",
-    "DEF456"
+    "TAPIMOD123",
+    "TESTCODE456",
+    "HELLO999"
+  ],
+  "used": [
+    {
+      "code": "TAPIMOD123",
+      "user": "123456789012345678",
+      "name": "TapiUser",
+      "time": "2025-06-02T02:30:00Z"
+    }
   ]
 }
