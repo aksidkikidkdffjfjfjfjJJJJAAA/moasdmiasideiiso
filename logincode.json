@@ -71,9 +71,10 @@
     {
       "id": "1336984912766697514",
       "codes": [
-        "J750F3"
+        "J750F3",
+        "DEV-KKIN-4BC4-IP-LK7L"
       ],
-      "updated_at": "2025-08-22T23:14:05+00:00Z"
+      "updated_at": "2025-08-22T23:17:17+00:00Z"
     }
   ],
   "codes": [
@@ -91,6 +92,7 @@
     "BA6K55",
     "DEV-YCNW-WOY4-IP-????",
     "8PWHCZ",
-    "J750F3"
+    "J750F3",
+    "DEV-KKIN-4BC4-IP-LK7L"
   ]
 }
