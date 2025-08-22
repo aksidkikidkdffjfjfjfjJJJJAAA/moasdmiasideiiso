@@ -6,9 +6,17 @@
         "DEV-SZ3A-S7IU-IP-P67I"
       ],
       "updated_at": "2025-08-22T16:47:03+00:00Z"
+    },
+    {
+      "id": "1119710742308982846",
+      "codes": [
+        "B6K9SK"
+      ],
+      "updated_at": "2025-08-22T16:59:09+00:00Z"
     }
   ],
   "codes": [
-    "DEV-SZ3A-S7IU-IP-P67I"
+    "DEV-SZ3A-S7IU-IP-P67I",
+    "B6K9SK"
   ]
 }
