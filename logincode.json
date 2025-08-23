@@ -139,6 +139,13 @@
         "DEV-4Z37-7OOQ-IP-????"
       ],
       "updated_at": "2025-08-23T12:00:25+00:00Z"
+    },
+    {
+      "id": "1278896725314109452",
+      "codes": [
+        "DEV-EW3G-DFCN-IP-XUWD"
+      ],
+      "updated_at": "2025-08-23T13:42:58+00:00Z"
     }
   ],
   "codes": [
@@ -179,6 +186,7 @@
     "DEV-NIMB-VRRG-IP-????",
     "DEV-N3G6-BYCH-IP-6AOD",
     "DEV-67GV-7QUA-IP-????",
-    "DEV-4Z37-7OOQ-IP-????"
+    "DEV-4Z37-7OOQ-IP-????",
+    "DEV-EW3G-DFCN-IP-XUWD"
   ]
 }
