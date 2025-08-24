@@ -100,9 +100,10 @@
         "AW6TXU",
         "DEV-AS5M-TXON-IP-UERZ",
         "DEV-UVRS-BYTH-IP-????",
-        "DEV-UVRS-BYTH-IP-UERZ"
+        "DEV-UVRS-BYTH-IP-UERZ",
+        "DEV-2NOB-X2AC-IP-UERZ"
       ],
-      "updated_at": "2025-08-24T18:26:26+00:00Z"
+      "updated_at": "2025-08-24T19:21:53+00:00Z"
     },
     {
       "id": "1320720383288021062",
@@ -313,6 +314,7 @@
     "DEV-GZ5H-RM7G-IP-SZ3E",
     "DEV-AS5M-TXON-IP-UERZ",
     "DEV-UVRS-BYTH-IP-????",
-    "DEV-UVRS-BYTH-IP-UERZ"
+    "DEV-UVRS-BYTH-IP-UERZ",
+    "DEV-2NOB-X2AC-IP-UERZ"
   ]
 }
