@@ -226,9 +226,10 @@
     {
       "id": "795541669571067904",
       "codes": [
-        "DEV-GZ5H-RM7G-IP-????"
+        "DEV-GZ5H-RM7G-IP-????",
+        "DEV-GZ5H-RM7G-IP-SZ3E"
       ],
-      "updated_at": "2025-08-24T17:49:43+00:00Z"
+      "updated_at": "2025-08-24T17:51:11+00:00Z"
     }
   ],
   "codes": [
@@ -305,6 +306,7 @@
     "DEV-CH5P-OXIG-IP-XTBZ",
     "DEV-4Z37-7OOQ-IP-75EP",
     "DEV-QNQF-VJXP-IP-SW46",
-    "DEV-GZ5H-RM7G-IP-????"
+    "DEV-GZ5H-RM7G-IP-????",
+    "DEV-GZ5H-RM7G-IP-SZ3E"
   ]
 }
