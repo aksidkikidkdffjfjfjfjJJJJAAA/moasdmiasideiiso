@@ -196,9 +196,10 @@
     {
       "id": "863393545204531210",
       "codes": [
-        "DEV-Q4DX-7GD4-IP-????"
+        "DEV-Q4DX-7GD4-IP-????",
+        "DEV-Q4DX-7GD4-IP-U7AW"
       ],
-      "updated_at": "2025-08-24T12:35:22+00:00Z"
+      "updated_at": "2025-08-24T12:36:14+00:00Z"
     }
   ],
   "codes": [
@@ -263,6 +264,7 @@
     "9B9JDO",
     "9B9JD0",
     "DEV-EW3G-DFCN-IP-Z35G",
-    "DEV-Q4DX-7GD4-IP-????"
+    "DEV-Q4DX-7GD4-IP-????",
+    "DEV-Q4DX-7GD4-IP-U7AW"
   ]
 }
