@@ -32,9 +32,10 @@
       "codes": [
         "XF5KUV",
         "XWABB5",
-        "DEV-NIMB-VRRG-IP-????"
+        "DEV-NIMB-VRRG-IP-????",
+        "DEV-4H47-L3NH-IP-NJB4"
       ],
-      "updated_at": "2025-08-23T11:28:07+00:00Z"
+      "updated_at": "2025-08-24T16:28:12+00:00Z"
     },
     {
       "id": "1371481584204648589",
@@ -291,6 +292,7 @@
     "N2X3W8",
     "DEV-EFF",
     "DEV-EFFA-VQMP-IP-????",
-    "DEV-EFFA-VQMP-IP-PNPD"
+    "DEV-EFFA-VQMP-IP-PNPD",
+    "DEV-4H47-L3NH-IP-NJB4"
   ]
 }
