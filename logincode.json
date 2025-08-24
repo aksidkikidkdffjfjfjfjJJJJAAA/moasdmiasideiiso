@@ -168,9 +168,10 @@
     {
       "id": "1097102677923614730",
       "codes": [
-        "DEV-24SD-NKE5-????"
+        "DEV-24SD-NKE5-????",
+        "DEV-24SD-NKE5-UJ23"
       ],
-      "updated_at": "2025-08-24T03:21:14+00:00Z"
+      "updated_at": "2025-08-24T03:22:22+00:00Z"
     }
   ],
   "codes": [
@@ -219,6 +220,7 @@
     "W4ERBN",
     "29E1XY",
     "0BCMKN",
-    "DEV-24SD-NKE5-????"
+    "DEV-24SD-NKE5-????",
+    "DEV-24SD-NKE5-UJ23"
   ]
 }
