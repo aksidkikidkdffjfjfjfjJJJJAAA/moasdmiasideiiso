@@ -98,9 +98,10 @@
       "codes": [
         "O8ROZT",
         "AW6TXU",
-        "DEV-AS5M-TXON-IP-UERZ"
+        "DEV-AS5M-TXON-IP-UERZ",
+        "DEV-UVRS-BYTH-IP-????"
       ],
-      "updated_at": "2025-08-24T18:17:52+00:00Z"
+      "updated_at": "2025-08-24T18:18:13+00:00Z"
     },
     {
       "id": "1320720383288021062",
@@ -309,6 +310,7 @@
     "DEV-QNQF-VJXP-IP-SW46",
     "DEV-GZ5H-RM7G-IP-????",
     "DEV-GZ5H-RM7G-IP-SZ3E",
-    "DEV-AS5M-TXON-IP-UERZ"
+    "DEV-AS5M-TXON-IP-UERZ",
+    "DEV-UVRS-BYTH-IP-????"
   ]
 }
