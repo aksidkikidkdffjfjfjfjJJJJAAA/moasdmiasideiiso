@@ -155,9 +155,10 @@
       "codes": [
         "DEV-EW3G-DFCN-IP-XUWD",
         "DEV-EW3G-DFCN-IP-EYZS",
-        "DEV-EW3G-DFCN-IP-????"
+        "DEV-EW3G-DFCN-IP-????",
+        "DEV-EW3G-DFCN-IP-Z35G"
       ],
-      "updated_at": "2025-08-24T03:27:11+00:00Z"
+      "updated_at": "2025-08-24T11:07:07+00:00Z"
     },
     {
       "id": "1350515975723814952",
@@ -253,6 +254,7 @@
     "Z12QYS",
     "DEV-BDON-2JBB-IP-SW46",
     "9B9JDO",
-    "9B9JD0"
+    "9B9JD0",
+    "DEV-EW3G-DFCN-IP-Z35G"
   ]
 }
