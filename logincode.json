@@ -224,9 +224,10 @@
       "codes": [
         "DEV-EFF",
         "DEV-EFFA-VQMP-IP-????",
-        "DEV-EFFA-VQMP-IP-PNPD"
+        "DEV-EFFA-VQMP-IP-PNPD",
+        "DEV-UUU2-TGVN-IP-PNPD"
       ],
-      "updated_at": "2025-08-24T16:27:19+00:00Z"
+      "updated_at": "2025-08-24T20:28:31+00:00Z"
     },
     {
       "id": "795541669571067904",
@@ -317,6 +318,7 @@
     "DEV-UVRS-BYTH-IP-????",
     "DEV-UVRS-BYTH-IP-UERZ",
     "DEV-2NOB-X2AC-IP-UERZ",
-    "DEV-HK32-NADZ-IP-LQNQ"
+    "DEV-HK32-NADZ-IP-LQNQ",
+    "DEV-UUU2-TGVN-IP-PNPD"
   ]
 }
