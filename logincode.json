@@ -97,9 +97,10 @@
       "id": "956522716360474634",
       "codes": [
         "O8ROZT",
-        "AW6TXU"
+        "AW6TXU",
+        "DEV-AS5M-TXON-IP-UERZ"
       ],
-      "updated_at": "2025-08-23T04:02:04+00:00Z"
+      "updated_at": "2025-08-24T18:17:52+00:00Z"
     },
     {
       "id": "1320720383288021062",
@@ -307,6 +308,7 @@
     "DEV-4Z37-7OOQ-IP-75EP",
     "DEV-QNQF-VJXP-IP-SW46",
     "DEV-GZ5H-RM7G-IP-????",
-    "DEV-GZ5H-RM7G-IP-SZ3E"
+    "DEV-GZ5H-RM7G-IP-SZ3E",
+    "DEV-AS5M-TXON-IP-UERZ"
   ]
 }
