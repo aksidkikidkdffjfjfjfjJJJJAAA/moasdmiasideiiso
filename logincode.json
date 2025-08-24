@@ -80,9 +80,10 @@
         "J750F3",
         "DEV-KKIN-4BC4-IP-LK7L",
         "DEV-KKIN-4BC4-IP-HJ5I",
-        "DEV-KKIN-4BC4-IP-MMSX"
+        "DEV-KKIN-4BC4-IP-MMSX",
+        "DEV-KKIN-4BC4-IP-RIEE"
       ],
-      "updated_at": "2025-08-23T03:48:05+00:00Z"
+      "updated_at": "2025-08-24T22:24:59+00:00Z"
     },
     {
       "id": "1153179266893234208",
@@ -325,6 +326,7 @@
     "DEV-UUU2-TGVN-IP-PNPD",
     "DEV-PBSO-UQDI-IP-MFHS",
     "DEV-YHZF-N3SJ-IP-IWIT",
-    "DEV-YHZF-N3SJ-IP-J7RL"
+    "DEV-YHZF-N3SJ-IP-J7RL",
+    "DEV-KKIN-4BC4-IP-RIEE"
   ]
 }
