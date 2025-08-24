@@ -214,9 +214,10 @@
     {
       "id": "643748450248294411",
       "codes": [
-        "DEV-EFF"
+        "DEV-EFF",
+        "DEV-EFFA-VQMP-IP-????"
       ],
-      "updated_at": "2025-08-24T16:24:52+00:00Z"
+      "updated_at": "2025-08-24T16:26:13+00:00Z"
     }
   ],
   "codes": [
@@ -287,6 +288,7 @@
     "A4RYF2",
     "DEV-OV7J-2OOT-IP-AZFD",
     "N2X3W8",
-    "DEV-EFF"
+    "DEV-EFF",
+    "DEV-EFFA-VQMP-IP-????"
   ]
 }
