@@ -295,9 +295,10 @@
     {
       "id": "1134328426728263680",
       "codes": [
-        "DEV-UTGH-LVK2-IP-????"
+        "DEV-UTGH-LVK2-IP-????",
+        "DEV-UTGH-LVK2-IP-GENI"
       ],
-      "updated_at": "2025-08-25T12:36:06+00:00Z"
+      "updated_at": "2025-08-25T12:39:48+00:00Z"
     }
   ],
   "codes": [
@@ -421,6 +422,7 @@
     "DEV-5MOM-HDSZ-IP-N7ZH",
     "DEV-7GQH-TQXR-IP-N7ZH",
     "DEV-7G2C-KO56-IP-QNGT",
-    "DEV-UTGH-LVK2-IP-????"
+    "DEV-UTGH-LVK2-IP-????",
+    "DEV-UTGH-LVK2-IP-GENI"
   ]
 }
