@@ -291,6 +291,13 @@
         "DEV-7G2C-KO56-IP-QNGT"
       ],
       "updated_at": "2025-08-25T12:02:49+00:00Z"
+    },
+    {
+      "id": "1134328426728263680",
+      "codes": [
+        "DEV-UTGH-LVK2-IP-????"
+      ],
+      "updated_at": "2025-08-25T12:36:06+00:00Z"
     }
   ],
   "codes": [
@@ -413,6 +420,7 @@
     "DEV-5MOM-HDSZ-IP-????",
     "DEV-5MOM-HDSZ-IP-N7ZH",
     "DEV-7GQH-TQXR-IP-N7ZH",
-    "DEV-7G2C-KO56-IP-QNGT"
+    "DEV-7G2C-KO56-IP-QNGT",
+    "DEV-UTGH-LVK2-IP-????"
   ]
 }
