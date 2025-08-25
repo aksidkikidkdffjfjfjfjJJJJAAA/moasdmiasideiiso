@@ -273,6 +273,13 @@
         "DEV-PNKT-NRA6-IP-????"
       ],
       "updated_at": "2025-08-25T10:55:12+00:00Z"
+    },
+    {
+      "id": "980695090819387443",
+      "codes": [
+        "DEV-7GQH-TQXR-IP-1220"
+      ],
+      "updated_at": "2025-08-25T11:38:09+00:00Z"
     }
   ],
   "codes": [
@@ -389,6 +396,7 @@
     "DEV-PNKT-NRA6-IP-????",
     "DEV-4H47-L3NH-IP-JXRU",
     "DEV-YB4N-UNTN-IP-PJ63",
-    "DEV-TCJD-H724-IP-PJ63"
+    "DEV-TCJD-H724-IP-PJ63",
+    "DEV-7GQH-TQXR-IP-1220"
   ]
 }
