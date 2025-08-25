@@ -71,9 +71,10 @@
       "codes": [
         "DEV-YCNW-WOY4-IP-????",
         "8PWHCZ",
-        "DEV-YCNW-WOY4-IP-M56O"
+        "DEV-YCNW-WOY4-IP-M56O",
+        "DEV-ZJUC-P4UO-IP-M56O"
       ],
-      "updated_at": "2025-08-22T23:18:51+00:00Z"
+      "updated_at": "2025-08-25T00:39:09+00:00Z"
     },
     {
       "id": "1336984912766697514",
@@ -335,6 +336,7 @@
     "DEV-HK32-NADZ-IP-????",
     "DEV-HK32-NADZ-IP-PRFM",
     "DEV-PBSO-UQDI-IP-35K2",
-    "GA5HKW"
+    "GA5HKW",
+    "DEV-ZJUC-P4UO-IP-M56O"
   ]
 }
