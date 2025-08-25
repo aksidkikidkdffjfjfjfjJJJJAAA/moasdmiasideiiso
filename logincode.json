@@ -249,9 +249,10 @@
       "id": "721558311635255305",
       "codes": [
         "ｇｄｓｃｈ",
-        "DEV-YXJ5-B4MZ-IP-????"
+        "DEV-YXJ5-B4MZ-IP-????",
+        "DEV-YXJ5-B4MZ-IP-VKGW"
       ],
-      "updated_at": "2025-08-25T08:10:16+00:00Z"
+      "updated_at": "2025-08-25T08:11:17+00:00Z"
     }
   ],
   "codes": [
@@ -353,6 +354,7 @@
     "DEV-7JYE-QPYV-IP-N4AL",
     "DEV-G42Z-EA6X-IP-N4AL",
     "ｇｄｓｃｈ",
-    "DEV-YXJ5-B4MZ-IP-????"
+    "DEV-YXJ5-B4MZ-IP-????",
+    "DEV-YXJ5-B4MZ-IP-VKGW"
   ]
 }
