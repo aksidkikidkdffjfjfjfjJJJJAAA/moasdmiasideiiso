@@ -266,9 +266,10 @@
       "id": "1244927139640508507",
       "codes": [
         "DEV-3DWZ-MRHG-IP-THWS",
-        "DEV-PNKT-NRA6-IP-THWS"
+        "DEV-PNKT-NRA6-IP-THWS",
+        "DEV-PNKT-NRA6-IP-????"
       ],
-      "updated_at": "2025-08-25T10:53:20+00:00Z"
+      "updated_at": "2025-08-25T10:55:12+00:00Z"
     }
   ],
   "codes": [
@@ -381,6 +382,7 @@
     "DEV-4257-32AZ-IP-????",
     "DEV-4257-32AZ-IP-RKVB",
     "DEV-3DWZ-MRHG-IP-THWS",
-    "DEV-PNKT-NRA6-IP-THWS"
+    "DEV-PNKT-NRA6-IP-THWS",
+    "DEV-PNKT-NRA6-IP-????"
   ]
 }
