@@ -262,9 +262,10 @@
         "ｇｄｓｃｈ",
         "DEV-YXJ5-B4MZ-IP-????",
         "DEV-YXJ5-B4MZ-IP-VKGW",
-        "DEV-YXJ5-B4MZ-IP-XS6P"
+        "DEV-YXJ5-B4MZ-IP-XS6P",
+        "DEV-YXJ5-B4MZ-IP-MDWB"
       ],
-      "updated_at": "2025-08-25T13:26:43+00:00Z"
+      "updated_at": "2025-08-25T13:27:31+00:00Z"
     },
     {
       "id": "1244927139640508507",
@@ -425,6 +426,7 @@
     "DEV-7G2C-KO56-IP-QNGT",
     "DEV-UTGH-LVK2-IP-????",
     "DEV-UTGH-LVK2-IP-GENI",
-    "DEV-YXJ5-B4MZ-IP-XS6P"
+    "DEV-YXJ5-B4MZ-IP-XS6P",
+    "DEV-YXJ5-B4MZ-IP-MDWB"
   ]
 }
