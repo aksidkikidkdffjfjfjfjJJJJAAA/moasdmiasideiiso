@@ -177,9 +177,10 @@
         "DEV-EW3G-DFCN-IP-XUWD",
         "DEV-EW3G-DFCN-IP-EYZS",
         "DEV-EW3G-DFCN-IP-????",
-        "DEV-EW3G-DFCN-IP-Z35G"
+        "DEV-EW3G-DFCN-IP-Z35G",
+        "DEV-EW3G-DFCN-IP-ZNPI"
       ],
-      "updated_at": "2025-08-24T11:07:07+00:00Z"
+      "updated_at": "2025-08-25T13:39:46+00:00Z"
     },
     {
       "id": "1350515975723814952",
@@ -427,6 +428,7 @@
     "DEV-UTGH-LVK2-IP-????",
     "DEV-UTGH-LVK2-IP-GENI",
     "DEV-YXJ5-B4MZ-IP-XS6P",
-    "DEV-YXJ5-B4MZ-IP-MDWB"
+    "DEV-YXJ5-B4MZ-IP-MDWB",
+    "DEV-EW3G-DFCN-IP-ZNPI"
   ]
 }
