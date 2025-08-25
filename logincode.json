@@ -207,9 +207,10 @@
       "codes": [
         "DEV-HY47-2I2P-IP-????",
         "DEV-BDON-2JBB-IP-SW46",
-        "DEV-QNQF-VJXP-IP-SW46"
+        "DEV-QNQF-VJXP-IP-SW46",
+        "DEV-HY47-2I2P-IP-SW46"
       ],
-      "updated_at": "2025-08-24T17:45:28+00:00Z"
+      "updated_at": "2025-08-25T08:15:21+00:00Z"
     },
     {
       "id": "863393545204531210",
@@ -355,6 +356,7 @@
     "DEV-G42Z-EA6X-IP-N4AL",
     "ｇｄｓｃｈ",
     "DEV-YXJ5-B4MZ-IP-????",
-    "DEV-YXJ5-B4MZ-IP-VKGW"
+    "DEV-YXJ5-B4MZ-IP-VKGW",
+    "DEV-HY47-2I2P-IP-SW46"
   ]
 }
