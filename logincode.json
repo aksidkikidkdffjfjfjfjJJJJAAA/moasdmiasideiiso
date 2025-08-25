@@ -204,9 +204,10 @@
         "DEV-HK32-NADZ-IP-PRFM",
         "DEV-PBSO-UQDI-IP-35K2",
         "DEV-THUQ-RTI6-IP-HGDF",
-        "DEV-PBSO-UQDI-IP-XR4X"
+        "DEV-PBSO-UQDI-IP-XR4X",
+        "DEV-PBSO-UQDI-IP-27KX"
       ],
-      "updated_at": "2025-08-25T20:44:08+00:00Z"
+      "updated_at": "2025-08-25T21:16:23+00:00Z"
     },
     {
       "id": "1097102677923614730",
@@ -439,6 +440,7 @@
     "DEV-JH6M-L2WM-IP-????",
     "DEV-JH6M-L2WM-IP-XTBZ",
     "DEV-YXJ5-B4MZ-IP-FTFN",
-    "DEV-PBSO-UQDI-IP-XR4X"
+    "DEV-PBSO-UQDI-IP-XR4X",
+    "DEV-PBSO-UQDI-IP-27KX"
   ]
 }
