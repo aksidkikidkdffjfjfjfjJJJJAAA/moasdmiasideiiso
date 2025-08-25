@@ -279,9 +279,10 @@
       "codes": [
         "DEV-7GQH-TQXR-IP-1220",
         "DEV-7GQH-TQXR-IP-????",
-        "DEV-5MOM-HDSZ-IP-????"
+        "DEV-5MOM-HDSZ-IP-????",
+        "DEV-5MOM-HDSZ-IP-N7ZH"
       ],
-      "updated_at": "2025-08-25T11:41:00+00:00Z"
+      "updated_at": "2025-08-25T11:55:37+00:00Z"
     }
   ],
   "codes": [
@@ -401,6 +402,7 @@
     "DEV-TCJD-H724-IP-PJ63",
     "DEV-7GQH-TQXR-IP-1220",
     "DEV-7GQH-TQXR-IP-????",
-    "DEV-5MOM-HDSZ-IP-????"
+    "DEV-5MOM-HDSZ-IP-????",
+    "DEV-5MOM-HDSZ-IP-N7ZH"
   ]
 }
