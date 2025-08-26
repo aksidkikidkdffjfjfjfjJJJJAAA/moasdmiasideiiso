@@ -188,9 +188,10 @@
         "DEV-EW3G-DFCN-IP-????",
         "DEV-EW3G-DFCN-IP-Z35G",
         "DEV-EW3G-DFCN-IP-ZNPI",
-        "DEV-EW3G-DFCN-IP-SOP7"
+        "DEV-EW3G-DFCN-IP-SOP7",
+        "DEV-LAQQ-Q6M2-IP-????"
       ],
-      "updated_at": "2025-08-26T12:49:09+00:00Z"
+      "updated_at": "2025-08-26T13:29:53+00:00Z"
     },
     {
       "id": "1350515975723814952",
@@ -475,6 +476,7 @@
     "DEV-4257-32AZ-IP-TFD4",
     "DEV-4257-32AZ-IP-W3WZ",
     "DEV-JKCR-Z6PV-IP-N4AL",
-    "DEV-EW3G-DFCN-IP-SOP7"
+    "DEV-EW3G-DFCN-IP-SOP7",
+    "DEV-LAQQ-Q6M2-IP-????"
   ]
 }
