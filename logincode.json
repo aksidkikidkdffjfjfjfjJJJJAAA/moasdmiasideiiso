@@ -7,9 +7,10 @@
         "DEV-67GV-7QUA-IP-????",
         "N2X3W8",
         "DEV-4257-32AZ-IP-????",
-        "DEV-4257-32AZ-IP-RKVB"
+        "DEV-4257-32AZ-IP-RKVB",
+        "DEV-BXAD-KRVW-IP-EKOG"
       ],
-      "updated_at": "2025-08-25T10:28:45+00:00Z"
+      "updated_at": "2025-08-26T03:16:06+00:00Z"
     },
     {
       "id": "1119710742308982846",
@@ -457,6 +458,7 @@
     "DEV-PBSO-UQDI-IP-UMDO",
     "DEV-IIUO-EZCV-IP-2S2Q",
     "DEV-6NPS-CTF5-IP-FHVJ",
-    "DEV-EV3T-6CPA-IP-CGZA"
+    "DEV-EV3T-6CPA-IP-CGZA",
+    "DEV-BXAD-KRVW-IP-EKOG"
   ]
 }
