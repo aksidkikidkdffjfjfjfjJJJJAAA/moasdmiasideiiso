@@ -9,9 +9,10 @@
         "DEV-4257-32AZ-IP-????",
         "DEV-4257-32AZ-IP-RKVB",
         "DEV-BXAD-KRVW-IP-EKOG",
-        "DEV-4257-32AZ-IP-TFD4"
+        "DEV-4257-32AZ-IP-TFD4",
+        "DEV-4257-32AZ-IP-W3WZ"
       ],
-      "updated_at": "2025-08-26T05:21:59+00:00Z"
+      "updated_at": "2025-08-26T06:53:34+00:00Z"
     },
     {
       "id": "1119710742308982846",
@@ -469,6 +470,7 @@
     "DEV-EV3T-6CPA-IP-CGZA",
     "DEV-BXAD-KRVW-IP-EKOG",
     "DEV-A7EW-DKKS-IP-JXDW",
-    "DEV-4257-32AZ-IP-TFD4"
+    "DEV-4257-32AZ-IP-TFD4",
+    "DEV-4257-32AZ-IP-W3WZ"
   ]
 }
