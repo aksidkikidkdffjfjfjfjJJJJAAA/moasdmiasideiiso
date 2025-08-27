@@ -112,9 +112,10 @@
       "codes": [
         "DEV-MV2T-6CKN-IP-????",
         "DEV-MV2T-6CKN-IP-AZFD",
-        "DEV-OV7J-2OOT-IP-AZFD"
+        "DEV-OV7J-2OOT-IP-AZFD",
+        "DEV-PBBN-3ZJQ-IP-AZFD"
       ],
-      "updated_at": "2025-08-24T14:11:04+00:00Z"
+      "updated_at": "2025-08-27T02:19:47+00:00Z"
     },
     {
       "id": "956522716360474634",
@@ -483,6 +484,7 @@
     "DEV-LAQQ-Q6M2-IP-????",
     "DEV-LAQQ-Q6M2-IP-SOP7",
     "DEV-YXJ5-B4MZ-IP-XQBW",
-    "DEV-BUDI-CKQ5-IP-FTQ5"
+    "DEV-BUDI-CKQ5-IP-FTQ5",
+    "DEV-PBBN-3ZJQ-IP-AZFD"
   ]
 }
