@@ -35,9 +35,10 @@
         "U8VVUB",
         "GA5HKW",
         "DEV-YB4N-UNTN-IP-PJ63",
-        "DEV-TCJD-H724-IP-PJ63"
+        "DEV-TCJD-H724-IP-PJ63",
+        "DEV-P7FN-UCR6-IP-PJ63"
       ],
-      "updated_at": "2025-08-25T11:06:28+00:00Z"
+      "updated_at": "2025-08-28T08:01:26+00:00Z"
     },
     {
       "id": "797177241258819634",
@@ -519,6 +520,7 @@
     "DEV-VNY5-JSJV-IP-3AA7",
     "DEV-VNY5-JSJV-IP-7O62",
     "MT02",
-    "QWMOCD"
+    "QWMOCD",
+    "DEV-P7FN-UCR6-IP-PJ63"
   ]
 }
