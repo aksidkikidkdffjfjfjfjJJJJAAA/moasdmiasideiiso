@@ -84,9 +84,10 @@
       "codes": [
         "DEV-CH5P-OXIG-IP-XTBZ",
         "DEV-JH6M-L2WM-IP-????",
-        "DEV-JH6M-L2WM-IP-XTBZ"
+        "DEV-JH6M-L2WM-IP-XTBZ",
+        "DEV-QZZM-PF3T-IP-XTBZ"
       ],
-      "updated_at": "2025-08-25T15:53:12+00:00Z"
+      "updated_at": "2025-08-28T09:56:22+00:00Z"
     },
     {
       "id": "429518788027744257",
@@ -541,6 +542,7 @@
     "DEV-HQFB-YBRE-IP-????",
     "DEV-HQFB-YBRE-IP-ZHLY",
     "DEV-BOUN-JDWG-IP-????",
-    "DEV-BOUN-JDWG-IP-RNXU"
+    "DEV-BOUN-JDWG-IP-RNXU",
+    "DEV-QZZM-PF3T-IP-XTBZ"
   ]
 }
