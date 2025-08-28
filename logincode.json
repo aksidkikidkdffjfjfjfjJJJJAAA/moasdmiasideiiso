@@ -36,9 +36,10 @@
         "GA5HKW",
         "DEV-YB4N-UNTN-IP-PJ63",
         "DEV-TCJD-H724-IP-PJ63",
-        "DEV-P7FN-UCR6-IP-PJ63"
+        "DEV-P7FN-UCR6-IP-PJ63",
+        "DEV-ZZ6F-AUXN-IP-ROBB"
       ],
-      "updated_at": "2025-08-28T08:01:26+00:00Z"
+      "updated_at": "2025-08-28T22:35:04+00:00Z"
     },
     {
       "id": "797177241258819634",
@@ -571,6 +572,7 @@
     "DEV-H62H-DMGE-IP-XEU6",
     "DEV-3M6O-2DNR-IP-JAGE",
     "DEV-2GGX-NPD4-IP-XEU6",
-    "DEV-AVJA-AYYU-IP-UZHE"
+    "DEV-AVJA-AYYU-IP-UZHE",
+    "DEV-ZZ6F-AUXN-IP-ROBB"
   ]
 }
