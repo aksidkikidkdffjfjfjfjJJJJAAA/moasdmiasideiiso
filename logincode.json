@@ -389,9 +389,10 @@
     {
       "id": "1271013416533889034",
       "codes": [
-        "DEV-H62H-DMGE-IP-XEU6"
+        "DEV-H62H-DMGE-IP-XEU6",
+        "DEV-2GGX-NPD4-IP-XEU6"
       ],
-      "updated_at": "2025-08-28T12:00:39+00:00Z"
+      "updated_at": "2025-08-28T12:52:23+00:00Z"
     }
   ],
   "codes": [
@@ -561,6 +562,7 @@
     "DEV-QZZM-PF3T-IP-XTBZ",
     "DEV-3M6O-2DNR-IP-????",
     "DEV-H62H-DMGE-IP-XEU6",
-    "DEV-3M6O-2DNR-IP-JAGE"
+    "DEV-3M6O-2DNR-IP-JAGE",
+    "DEV-2GGX-NPD4-IP-XEU6"
   ]
 }
