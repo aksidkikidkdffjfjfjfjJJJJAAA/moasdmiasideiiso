@@ -393,6 +393,13 @@
         "DEV-2GGX-NPD4-IP-XEU6"
       ],
       "updated_at": "2025-08-28T12:52:23+00:00Z"
+    },
+    {
+      "id": "1195187036030763070",
+      "codes": [
+        "DEV-AVJA-AYYU-IP-UZHE"
+      ],
+      "updated_at": "2025-08-28T14:40:53+00:00Z"
     }
   ],
   "codes": [
@@ -563,6 +570,7 @@
     "DEV-3M6O-2DNR-IP-????",
     "DEV-H62H-DMGE-IP-XEU6",
     "DEV-3M6O-2DNR-IP-JAGE",
-    "DEV-2GGX-NPD4-IP-XEU6"
+    "DEV-2GGX-NPD4-IP-XEU6",
+    "DEV-AVJA-AYYU-IP-UZHE"
   ]
 }
