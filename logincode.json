@@ -36,9 +36,10 @@
       "codes": [
         "DEV-2Y7D-BZTK-IP-UZHE",
         "DEV-2Y7D-BZTK-IP-LPQT",
-        "DEV-ZZ6F-AUXN-IP-LPQT"
+        "DEV-ZZ6F-AUXN-IP-LPQT",
+        "DEV-ZZ6F-AUXN-IP-HAOU"
       ],
-      "updated_at": "2025-08-29T04:00:53+00:00Z"
+      "updated_at": "2025-08-29T05:17:40+00:00Z"
     },
     {
       "id": "843439491477667880",
@@ -62,6 +63,7 @@
     "DEV-ZZ6F-AUXN-IP-LPQT",
     "DEV-OBAS-AUZB-IP-RNXU",
     "DEV-YXJ5-B4MZ-IP-7ZBQ",
-    "DEV-63FS-EVV7-IP-RNXU"
+    "DEV-63FS-EVV7-IP-RNXU",
+    "DEV-ZZ6F-AUXN-IP-HAOU"
   ]
 }
