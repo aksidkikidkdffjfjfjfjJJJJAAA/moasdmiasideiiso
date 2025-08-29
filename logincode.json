@@ -37,9 +37,10 @@
         "DEV-2Y7D-BZTK-IP-UZHE",
         "DEV-2Y7D-BZTK-IP-LPQT",
         "DEV-ZZ6F-AUXN-IP-LPQT",
-        "DEV-ZZ6F-AUXN-IP-HAOU"
+        "DEV-ZZ6F-AUXN-IP-HAOU",
+        "DEV-TCJD-H724-IP-PJ63"
       ],
-      "updated_at": "2025-08-29T05:17:40+00:00Z"
+      "updated_at": "2025-08-29T07:48:42+00:00Z"
     },
     {
       "id": "843439491477667880",
@@ -106,6 +107,7 @@
     "DEV-IIUO-EZCV-IP-2S2Q",
     "DEV-UVRS-BYTH-IP-UERZ",
     "DEV-AS5M-TXON-IP-UERZ",
-    "DEV-SCQ7-CB6N-IP-UE72"
+    "DEV-SCQ7-CB6N-IP-UE72",
+    "DEV-TCJD-H724-IP-PJ63"
   ]
 }
