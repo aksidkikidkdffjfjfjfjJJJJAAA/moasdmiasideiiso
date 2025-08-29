@@ -73,9 +73,10 @@
     {
       "id": "956522716360474634",
       "codes": [
-        "DEV-UVRS-BYTH-IP-UERZ"
+        "DEV-UVRS-BYTH-IP-UERZ",
+        "DEV-AS5M-TXON-IP-UERZ"
       ],
-      "updated_at": "2025-08-29T07:41:15+00:00Z"
+      "updated_at": "2025-08-29T07:42:13+00:00Z"
     }
   ],
   "codes": [
@@ -96,6 +97,7 @@
     "DEV-NGV5-SSXO-IP-TKR7",
     "DEV-M2EL-WFZ5-IP-CGZA",
     "DEV-IIUO-EZCV-IP-2S2Q",
-    "DEV-UVRS-BYTH-IP-UERZ"
+    "DEV-UVRS-BYTH-IP-UERZ",
+    "DEV-AS5M-TXON-IP-UERZ"
   ]
 }
