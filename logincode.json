@@ -189,6 +189,13 @@
         "DEV-WG24-PHKN-IP-LW3Y"
       ],
       "updated_at": "2025-08-30T05:53:50+00:00Z"
+    },
+    {
+      "id": "1328722078479683680",
+      "codes": [
+        "DEV-RKCE-LML6-IP-T6FS"
+      ],
+      "updated_at": "2025-08-30T06:42:28+00:00Z"
     }
   ],
   "codes": [
@@ -244,6 +251,7 @@
     "DEV-7I7I-F6C2-IP-????",
     "DEV-7I7I-F6C2-IP-JNIG",
     "DEV-WG24-PHKN-IP-????",
-    "DEV-WG24-PHKN-IP-LW3Y"
+    "DEV-WG24-PHKN-IP-LW3Y",
+    "DEV-RKCE-LML6-IP-T6FS"
   ]
 }
