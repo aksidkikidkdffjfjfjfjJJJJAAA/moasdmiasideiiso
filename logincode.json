@@ -185,9 +185,10 @@
     {
       "id": "912953678275686420",
       "codes": [
-        "DEV-WG24-PHKN-IP-????"
+        "DEV-WG24-PHKN-IP-????",
+        "DEV-WG24-PHKN-IP-LW3Y"
       ],
-      "updated_at": "2025-08-30T05:52:20+00:00Z"
+      "updated_at": "2025-08-30T05:53:50+00:00Z"
     }
   ],
   "codes": [
@@ -242,6 +243,7 @@
     "DEV-6Y6E-WQ3X-IP-KFMM",
     "DEV-7I7I-F6C2-IP-????",
     "DEV-7I7I-F6C2-IP-JNIG",
-    "DEV-WG24-PHKN-IP-????"
+    "DEV-WG24-PHKN-IP-????",
+    "DEV-WG24-PHKN-IP-LW3Y"
   ]
 }
