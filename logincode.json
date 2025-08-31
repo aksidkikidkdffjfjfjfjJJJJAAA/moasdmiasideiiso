@@ -243,6 +243,13 @@
         "DEV-KKIN-4BC4-IP-LK7L"
       ],
       "updated_at": "2025-08-31T11:08:15+00:00Z"
+    },
+    {
+      "id": "1195187036030763070",
+      "codes": [
+        "DEV-AVJA-AYYU-IP-UZHE"
+      ],
+      "updated_at": "2025-08-31T13:19:30+00:00Z"
     }
   ],
   "codes": [
@@ -316,6 +323,7 @@
     "DEV-3DWZ-MRHG-IP-THWS",
     "DEV-3DWZ-MRHG-IP-????",
     "DEV-KKIN-4BC4-IP-LK7L",
-    "DEV-VCSK-OHMX-IP-2S2Q"
+    "DEV-VCSK-OHMX-IP-2S2Q",
+    "DEV-AVJA-AYYU-IP-UZHE"
   ]
 }
