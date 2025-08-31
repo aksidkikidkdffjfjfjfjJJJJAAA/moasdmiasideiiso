@@ -185,9 +185,10 @@
       "id": "1161255891358720090",
       "codes": [
         "DEV-7I7I-F6C2-IP-????",
-        "DEV-7I7I-F6C2-IP-JNIG"
+        "DEV-7I7I-F6C2-IP-JNIG",
+        "DEV-VALI-3M2L-IP-JNIG"
       ],
-      "updated_at": "2025-08-30T04:58:21+00:00Z"
+      "updated_at": "2025-08-31T15:01:40+00:00Z"
     },
     {
       "id": "912953678275686420",
@@ -332,6 +333,7 @@
     "DEV-KKIN-4BC4-IP-LK7L",
     "DEV-VCSK-OHMX-IP-2S2Q",
     "DEV-AVJA-AYYU-IP-UZHE",
-    "DEV-5MOM-HDSZ-IP-N7ZH"
+    "DEV-5MOM-HDSZ-IP-N7ZH",
+    "DEV-VALI-3M2L-IP-JNIG"
   ]
 }
