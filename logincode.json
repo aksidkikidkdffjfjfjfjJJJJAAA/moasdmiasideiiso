@@ -325,9 +325,10 @@
     {
       "id": "1054724644793495612",
       "codes": [
-        "DEV-G2OD-DOR2-IP-????"
+        "DEV-G2OD-DOR2-IP-????",
+        "DEV-G2OD-DOR2-IP-ARUW"
       ],
-      "updated_at": "2025-09-07T16:27:01+00:00Z"
+      "updated_at": "2025-09-07T16:27:47+00:00Z"
     }
   ],
   "codes": [
@@ -438,6 +439,7 @@
     "DEV-XBLS-S6H6-IP-BQFT",
     "DEV-VNY5-JSJV-IP-3J5V",
     "DEV-VNY5-JSJV-IP-P7CH",
-    "DEV-G2OD-DOR2-IP-????"
+    "DEV-G2OD-DOR2-IP-????",
+    "DEV-G2OD-DOR2-IP-ARUW"
   ]
 }
