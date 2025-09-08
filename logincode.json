@@ -329,6 +329,13 @@
         "DEV-G2OD-DOR2-IP-ARUW"
       ],
       "updated_at": "2025-09-07T16:27:47+00:00Z"
+    },
+    {
+      "id": "920958532147376128",
+      "codes": [
+        "DEV-RAN2-66K5-IP-????"
+      ],
+      "updated_at": "2025-09-08T02:45:14+00:00Z"
     }
   ],
   "codes": [
@@ -440,6 +447,7 @@
     "DEV-VNY5-JSJV-IP-3J5V",
     "DEV-VNY5-JSJV-IP-P7CH",
     "DEV-G2OD-DOR2-IP-????",
-    "DEV-G2OD-DOR2-IP-ARUW"
+    "DEV-G2OD-DOR2-IP-ARUW",
+    "DEV-RAN2-66K5-IP-????"
   ]
 }
