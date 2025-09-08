@@ -337,6 +337,13 @@
         "DEV-RAN2-66K5-IP-AHYD"
       ],
       "updated_at": "2025-09-08T03:10:50+00:00Z"
+    },
+    {
+      "id": "467700824278040576",
+      "codes": [
+        "DEV-6G5X-RUF7-IP-????"
+      ],
+      "updated_at": "2025-09-08T11:56:11+00:00Z"
     }
   ],
   "codes": [
@@ -450,6 +457,7 @@
     "DEV-G2OD-DOR2-IP-????",
     "DEV-G2OD-DOR2-IP-ARUW",
     "DEV-RAN2-66K5-IP-????",
-    "DEV-RAN2-66K5-IP-AHYD"
+    "DEV-RAN2-66K5-IP-AHYD",
+    "DEV-6G5X-RUF7-IP-????"
   ]
 }
