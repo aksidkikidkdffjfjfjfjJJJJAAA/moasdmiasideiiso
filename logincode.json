@@ -343,9 +343,10 @@
       "codes": [
         "DEV-6G5X-RUF7-IP-????",
         "GWJH",
-        "DEV-6G5X-RUF7-IP-GWJH"
+        "DEV-6G5X-RUF7-IP-GWJH",
+        "DEV-6G5X-RUF7-IP-YNRZ"
       ],
-      "updated_at": "2025-09-08T11:57:50+00:00Z"
+      "updated_at": "2025-09-08T12:29:02+00:00Z"
     }
   ],
   "codes": [
@@ -462,6 +463,7 @@
     "DEV-RAN2-66K5-IP-AHYD",
     "DEV-6G5X-RUF7-IP-????",
     "GWJH",
-    "DEV-6G5X-RUF7-IP-GWJH"
+    "DEV-6G5X-RUF7-IP-GWJH",
+    "DEV-6G5X-RUF7-IP-YNRZ"
   ]
 }
