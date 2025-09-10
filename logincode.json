@@ -84,9 +84,10 @@
         "DEV-IIUO-EZCV-IP-2S2Q",
         "DEV-IIUO-EZCV-IP-WUJZ",
         "DEV-VCSK-OHMX-IP-2S2Q",
-        "DEV-YTIK-NXGW-IP-2S2Q"
+        "DEV-YTIK-NXGW-IP-2S2Q",
+        "DEV-LMMQ-NPXH-IP-2S2Q"
       ],
-      "updated_at": "2025-09-01T12:04:52+00:00Z"
+      "updated_at": "2025-09-10T11:00:28+00:00Z"
     },
     {
       "id": "956522716360474634",
@@ -466,6 +467,7 @@
     "GWJH",
     "DEV-6G5X-RUF7-IP-GWJH",
     "DEV-6G5X-RUF7-IP-YNRZ",
-    "DEV-YXJ5-B4MZ-IP-QJ75"
+    "DEV-YXJ5-B4MZ-IP-QJ75",
+    "DEV-LMMQ-NPXH-IP-2S2Q"
   ]
 }
