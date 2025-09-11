@@ -195,9 +195,10 @@
         "DEV-7BLM-64WF-IP-QTCF",
         "DEV-U34P-N52D-IP-ZCG4",
         "DEV-7BLM-64WF-IP-ZCG4",
-        "DEV-RYJ6-GKZ4-IP-UO4S"
+        "DEV-RYJ6-GKZ4-IP-UO4S",
+        "DEV-RYJ6-GKZ4"
       ],
-      "updated_at": "2025-09-01T14:10:20+00:00Z"
+      "updated_at": "2025-09-11T10:47:56+00:00Z"
     },
     {
       "id": "1371481584204648589",
@@ -478,6 +479,7 @@
     "DEV-N3G6-BYCH",
     "DEV-QZZM-PF3T",
     "DEV-7QVZ-ZPZT",
-    "DEV-M2EL-WFZ5"
+    "DEV-M2EL-WFZ5",
+    "DEV-RYJ6-GKZ4"
   ]
 }
