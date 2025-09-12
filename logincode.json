@@ -374,9 +374,10 @@
         "DEV_UWTU_A6TR",
         "DEV-UWTU-A6TR",
         "DEV-B4HX-JFZL",
-        "DEV-PA3B-UC76"
+        "DEV-PA3B-UC76",
+        "DEV_PA3B_UC76"
       ],
-      "updated_at": "2025-09-12T07:09:08+00:00Z"
+      "updated_at": "2025-09-12T07:21:18+00:00Z"
     }
   ],
   "codes": [
@@ -512,6 +513,7 @@
     "DEV_UWTU_A6TR",
     "DEV-UWTU-A6TR",
     "DEV-B4HX-JFZL",
-    "DEV-PA3B-UC76"
+    "DEV-PA3B-UC76",
+    "DEV_PA3B_UC76"
   ]
 }
