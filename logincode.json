@@ -61,9 +61,10 @@
       "codes": [
         "DEV-OBAS-AUZB-IP-RNXU",
         "DEV-63FS-EVV7-IP-RNXU",
-        "DEV-BOUN-JDWG-IP-RNXU"
+        "DEV-BOUN-JDWG-IP-RNXU",
+        "DEV-OBAS-AUZB"
       ],
-      "updated_at": "2025-08-29T15:23:09+00:00Z"
+      "updated_at": "2025-09-12T08:03:17+00:00Z"
     },
     {
       "id": "1243835003293401128",
@@ -514,6 +515,7 @@
     "DEV-UWTU-A6TR",
     "DEV-B4HX-JFZL",
     "DEV-PA3B-UC76",
-    "DEV_PA3B_UC76"
+    "DEV_PA3B_UC76",
+    "DEV-OBAS-AUZB"
   ]
 }
