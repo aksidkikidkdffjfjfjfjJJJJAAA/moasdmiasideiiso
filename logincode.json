@@ -151,9 +151,10 @@
       "id": "1231138075187351624",
       "codes": [
         "DEV-HY47-2I2P-IP-SW46",
-        "DEV-QNQF-VJXP-IP-SW46"
+        "DEV-QNQF-VJXP-IP-SW46",
+        "DEV-HY47-2I2P"
       ],
-      "updated_at": "2025-08-29T13:14:26+00:00Z"
+      "updated_at": "2025-09-12T08:33:09+00:00Z"
     },
     {
       "id": "1098933467024212070",
@@ -516,6 +517,7 @@
     "DEV-B4HX-JFZL",
     "DEV-PA3B-UC76",
     "DEV_PA3B_UC76",
-    "DEV-OBAS-AUZB"
+    "DEV-OBAS-AUZB",
+    "DEV-HY47-2I2P"
   ]
 }
