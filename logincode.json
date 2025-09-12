@@ -62,9 +62,10 @@
         "DEV-OBAS-AUZB-IP-RNXU",
         "DEV-63FS-EVV7-IP-RNXU",
         "DEV-BOUN-JDWG-IP-RNXU",
-        "DEV-OBAS-AUZB"
+        "DEV-OBAS-AUZB",
+        "DEV-5LTQ-QGEF"
       ],
-      "updated_at": "2025-09-12T08:03:17+00:00Z"
+      "updated_at": "2025-09-12T08:48:29+00:00Z"
     },
     {
       "id": "1243835003293401128",
@@ -526,6 +527,7 @@
     "DEV_PA3B_UC76",
     "DEV-OBAS-AUZB",
     "DEV-HY47-2I2P",
-    "DEV-3M6O-2DNR"
+    "DEV-3M6O-2DNR",
+    "DEV-5LTQ-QGEF"
   ]
 }
