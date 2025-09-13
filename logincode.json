@@ -356,9 +356,10 @@
       "id": "920958532147376128",
       "codes": [
         "DEV-RAN2-66K5-IP-????",
-        "DEV-RAN2-66K5-IP-AHYD"
+        "DEV-RAN2-66K5-IP-AHYD",
+        "DEV-RAN2-66K5"
       ],
-      "updated_at": "2025-09-08T03:10:50+00:00Z"
+      "updated_at": "2025-09-13T23:11:05+00:00Z"
     },
     {
       "id": "467700824278040576",
@@ -616,6 +617,7 @@
     "DEV-3K2U-ONIQ",
     "DEVZEVPYYZ0",
     "DEV-ZEVP-YYZO",
-    "DEV-ZEVP-YYZ0"
+    "DEV-ZEVP-YYZ0",
+    "DEV-RAN2-66K5"
   ]
 }
