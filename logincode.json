@@ -441,9 +441,10 @@
     {
       "id": "1192635502038372365",
       "codes": [
-        "KANIPINNKU"
+        "KANIPINNKU",
+        "DEV-5ZU7-AVLM"
       ],
-      "updated_at": "2025-09-13T12:33:48+00:00Z"
+      "updated_at": "2025-09-13T12:36:35+00:00Z"
     }
   ],
   "codes": [
@@ -598,6 +599,7 @@
     "DEV-6JYV-GK3D",
     "DEV-CR2Y-COHT",
     "DEV-5Y2E-LKYP",
-    "KANIPINNKU"
+    "KANIPINNKU",
+    "DEV-5ZU7-AVLM"
   ]
 }
