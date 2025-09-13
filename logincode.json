@@ -239,9 +239,10 @@
       "codes": [
         "DEV-RKCE-LML6-IP-T6FS",
         "DEV-72NG-6FTE-IP-T6FS",
-        "DEV-H4TG-4ZQV-IP-T6FS"
+        "DEV-H4TG-4ZQV-IP-T6FS",
+        "DEV-RKCE-LML6"
       ],
-      "updated_at": "2025-09-02T03:25:30+00:00Z"
+      "updated_at": "2025-09-13T12:51:18+00:00Z"
     },
     {
       "id": "1379051307209330751",
@@ -600,6 +601,7 @@
     "DEV-CR2Y-COHT",
     "DEV-5Y2E-LKYP",
     "KANIPINNKU",
-    "DEV-5ZU7-AVLM"
+    "DEV-5ZU7-AVLM",
+    "DEV-RKCE-LML6"
   ]
 }
