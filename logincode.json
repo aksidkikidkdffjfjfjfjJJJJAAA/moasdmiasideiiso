@@ -489,9 +489,10 @@
     {
       "id": "1126120118481588275",
       "codes": [
-        "DEV－WKLR－Y3KL"
+        "DEV－WKLR－Y3KL",
+        "DEV-WKLR-Y3KL"
       ],
-      "updated_at": "2025-09-14T14:27:37+00:00Z"
+      "updated_at": "2025-09-14T14:31:40+00:00Z"
     }
   ],
   "codes": [
@@ -664,6 +665,7 @@
     "DEV-2N6F-2DAT",
     "DEV-L4IQ-CAT5",
     "DEV-T5SW-RLTT",
-    "DEV－WKLR－Y3KL"
+    "DEV－WKLR－Y3KL",
+    "DEV-WKLR-Y3KL"
   ]
 }
