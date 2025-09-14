@@ -304,9 +304,10 @@
         "DEV-5MOM-HDSZ-IP-N7ZH",
         "DEV-5MOM-HDSZ",
         "DEV-6TY2-GP7F",
-        "DEV-XLD4-0ZKX"
+        "DEV-XLD4-0ZKX",
+        "DEV-6NJB-GXCA"
       ],
-      "updated_at": "2025-09-11T14:50:05+00:00Z"
+      "updated_at": "2025-09-14T06:43:23+00:00Z"
     },
     {
       "id": "1103486448436531342",
@@ -630,6 +631,7 @@
     "DEV-RAN2-66K5",
     "DEV-C33A-UBDI",
     "DEV-VD2X-7WXP",
-    "DEV-MG4A-P7OC"
+    "DEV-MG4A-P7OC",
+    "DEV-6NJB-GXCA"
   ]
 }
