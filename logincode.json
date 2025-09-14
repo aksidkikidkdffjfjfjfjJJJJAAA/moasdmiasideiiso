@@ -491,9 +491,10 @@
       "codes": [
         "DEV－WKLR－Y3KL",
         "DEV-WKLR-Y3KL",
-        "- `DEV－WKLR－Y3KL`"
+        "- `DEV－WKLR－Y3KL`",
+        "`DEV－WKLR－Y3KL`"
       ],
-      "updated_at": "2025-09-14T14:42:36+00:00Z"
+      "updated_at": "2025-09-14T14:42:53+00:00Z"
     }
   ],
   "codes": [
@@ -668,6 +669,7 @@
     "DEV-T5SW-RLTT",
     "DEV－WKLR－Y3KL",
     "DEV-WKLR-Y3KL",
-    "- `DEV－WKLR－Y3KL`"
+    "- `DEV－WKLR－Y3KL`",
+    "`DEV－WKLR－Y3KL`"
   ]
 }
