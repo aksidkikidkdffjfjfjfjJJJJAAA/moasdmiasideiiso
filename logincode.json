@@ -84,6 +84,13 @@
         "DEV-PVLO-FBME"
       ],
       "updated_at": "2025-09-15T15:32:09+00:00Z"
+    },
+    {
+      "id": "1417063570663014400",
+      "codes": [
+        "DEV-LJJP-ZDSQ"
+      ],
+      "updated_at": "2025-09-15T15:35:14+00:00Z"
     }
   ],
   "codes": [
@@ -99,6 +106,7 @@
     "DEV-L27I-MX7X",
     "DEV-7J5E-I47V",
     "DEV-JT5V-KRNN",
-    "DEV-PVLO-FBME"
+    "DEV-PVLO-FBME",
+    "DEV-LJJP-ZDSQ"
   ]
 }
