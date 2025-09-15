@@ -102,6 +102,13 @@
         "DEV-GLGS-INPY"
       ],
       "updated_at": "2025-09-15T21:35:49+00:00Z"
+    },
+    {
+      "id": "1195187036030763070",
+      "codes": [
+        "DEV-HFDT-ETCR"
+      ],
+      "updated_at": "2025-09-15T23:20:36+00:00Z"
     }
   ],
   "codes": [
@@ -123,6 +130,7 @@
     "DEV-QCOL-NU4G",
     "DEV-PVHU-UNXC",
     "DEV-GLGS-INPY",
-    "DEV-SSLT-7LSG"
+    "DEV-SSLT-7LSG",
+    "DEV-HFDT-ETCR"
   ]
 }
