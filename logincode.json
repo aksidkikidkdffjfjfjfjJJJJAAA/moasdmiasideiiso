@@ -188,9 +188,10 @@
         "1227",
         "DEV - 3UOL - LPR3",
         "DEV-3U0L-LPR3",
-        "DEV3UOLLPR3"
+        "DEV3UOLLPR3",
+        "DEV-3UOL-LPR3"
       ],
-      "updated_at": "2025-09-16T22:56:28+00:00Z"
+      "updated_at": "2025-09-16T22:56:53+00:00Z"
     },
     {
       "id": "1320720383288021062",
@@ -251,6 +252,7 @@
     "DEV - 3UOL - LPR3",
     "DEV-3U0L-LPR3",
     "DEV-PKJH-AY3U",
-    "DEV3UOLLPR3"
+    "DEV3UOLLPR3",
+    "DEV-3UOL-LPR3"
   ]
 }
