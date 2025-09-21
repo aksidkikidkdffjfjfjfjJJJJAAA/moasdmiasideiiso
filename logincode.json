@@ -296,6 +296,13 @@
         "DEV-AOPU-OVTD"
       ],
       "updated_at": "2025-09-20T11:00:41+00:00Z"
+    },
+    {
+      "id": "1302600091344965704",
+      "codes": [
+        "DEV-2U3A-NVS7"
+      ],
+      "updated_at": "2025-09-21T10:50:15+00:00Z"
     }
   ],
   "codes": [
@@ -373,6 +380,7 @@
     "DEV-7QVZ-ZPZT",
     "DEV-JH6M-L2WM",
     "DEV-M2EL-WFZ5",
-    "DEV-7G7D-JFIF"
+    "DEV-7G7D-JFIF",
+    "DEV-2U3A-NVS7"
   ]
 }
