@@ -336,6 +336,13 @@
         "DEV-NXEE-EVKK"
       ],
       "updated_at": "2025-09-22T14:01:22+00:00Z"
+    },
+    {
+      "id": "1258731223505829890",
+      "codes": [
+        "mod1v"
+      ],
+      "updated_at": "2025-09-22T14:48:25+00:00Z"
     }
   ],
   "codes": [
@@ -422,6 +429,7 @@
     "DEC-UCX6-T2DC",
     "DEV-UCX6-T2DC",
     "DEV-IJ3D-2MBY",
-    "DEV-NXEE-EVKK"
+    "DEV-NXEE-EVKK",
+    "mod1v"
   ]
 }
