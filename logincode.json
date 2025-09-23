@@ -341,9 +341,10 @@
       "id": "1258731223505829890",
       "codes": [
         "mod1v",
-        "DEV-QO2D-XPOM"
+        "DEV-QO2D-XPOM",
+        "DEV-3GPO-RBCG"
       ],
-      "updated_at": "2025-09-22T15:02:09+00:00Z"
+      "updated_at": "2025-09-23T10:25:39+00:00Z"
     }
   ],
   "codes": [
@@ -432,6 +433,7 @@
     "DEV-IJ3D-2MBY",
     "DEV-NXEE-EVKK",
     "mod1v",
-    "DEV-QO2D-XPOM"
+    "DEV-QO2D-XPOM",
+    "DEV-3GPO-RBCG"
   ]
 }
