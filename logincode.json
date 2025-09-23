@@ -342,9 +342,10 @@
       "codes": [
         "mod1v",
         "DEV-QO2D-XPOM",
-        "DEV-3GPO-RBCG"
+        "DEV-3GPO-RBCG",
+        "DEV-LRCW-J6JY"
       ],
-      "updated_at": "2025-09-23T10:25:39+00:00Z"
+      "updated_at": "2025-09-23T10:45:59+00:00Z"
     }
   ],
   "codes": [
@@ -434,6 +435,7 @@
     "DEV-NXEE-EVKK",
     "mod1v",
     "DEV-QO2D-XPOM",
-    "DEV-3GPO-RBCG"
+    "DEV-3GPO-RBCG",
+    "DEV-LRCW-J6JY"
   ]
 }
