@@ -343,9 +343,10 @@
         "mod1v",
         "DEV-QO2D-XPOM",
         "DEV-3GPO-RBCG",
-        "DEV-LRCW-J6JY"
+        "DEV-LRCW-J6JY",
+        "DEV-WATA-M3LI"
       ],
-      "updated_at": "2025-09-23T10:45:59+00:00Z"
+      "updated_at": "2025-09-23T11:24:28+00:00Z"
     }
   ],
   "codes": [
@@ -436,6 +437,7 @@
     "mod1v",
     "DEV-QO2D-XPOM",
     "DEV-3GPO-RBCG",
-    "DEV-LRCW-J6JY"
+    "DEV-LRCW-J6JY",
+    "DEV-WATA-M3LI"
   ]
 }
