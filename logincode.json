@@ -238,9 +238,10 @@
       "codes": [
         "DEV-C3TN-HMYB",
         "DEV-ZGI2-OF3C",
-        "DVE-H6BG-22H4"
+        "DVE-H6BG-22H4",
+        "DEV-H6BG-22H4"
       ],
-      "updated_at": "2025-09-30T22:34:15+00:00Z"
+      "updated_at": "2025-09-30T22:35:49+00:00Z"
     },
     {
       "id": "991302390915551253",
@@ -702,6 +703,7 @@
     "DEV-SXJX-KDZX",
     "DEV-6VUA-3Q2H",
     "DEV-H62H-DMGE",
-    "DVE-H6BG-22H4"
+    "DVE-H6BG-22H4",
+    "DEV-H6BG-22H4"
   ]
 }
