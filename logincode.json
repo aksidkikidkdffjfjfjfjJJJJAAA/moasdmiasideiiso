@@ -388,9 +388,10 @@
     {
       "id": "788156604109160478",
       "codes": [
-        "DEV-PZUQ-2SOU"
+        "DEV-PZUQ-2SOU",
+        "DEV-SXJX-KDZX"
       ],
-      "updated_at": "2025-09-25T15:38:44+00:00Z"
+      "updated_at": "2025-09-30T15:52:20+00:00Z"
     },
     {
       "id": "1230119812345237527",
@@ -694,6 +695,7 @@
     "DEV-4EVM-NGGD",
     "DEV",
     "DEV-BHET-DDKE",
-    "inu"
+    "inu",
+    "DEV-SXJX-KDZX"
   ]
 }
