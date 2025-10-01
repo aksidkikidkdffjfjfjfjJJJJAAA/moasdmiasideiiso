@@ -241,9 +241,10 @@
         "DEV-C3TN-HMYB",
         "DEV-ZGI2-OF3C",
         "DVE-H6BG-22H4",
-        "DEV-H6BG-22H4"
+        "DEV-H6BG-22H4",
+        "DEV-JBOA-U6O2"
       ],
-      "updated_at": "2025-09-30T22:35:49+00:00Z"
+      "updated_at": "2025-10-01T16:48:58+00:00Z"
     },
     {
       "id": "991302390915551253",
@@ -844,6 +845,7 @@
     "DEV-FOYX-PKA2",
     "v4.151.0",
     "shcem0318",
-    "intent:#Intent;type=application/x-discord-interaction-data;S.data=%7B%22id%22%3A%221389256517211132080%22%2C%22name%22%3A%22%E8%"
+    "intent:#Intent;type=application/x-discord-interaction-data;S.data=%7B%22id%22%3A%221389256517211132080%22%2C%22name%22%3A%22%E8%",
+    "DEV-JBOA-U6O2"
   ]
 }
