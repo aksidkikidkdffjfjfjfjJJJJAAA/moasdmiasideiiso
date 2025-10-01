@@ -659,9 +659,10 @@
     {
       "id": "1130454338712645703",
       "codes": [
-        "v4.151.0"
+        "v4.151.0",
+        "intent:#Intent;type=application/x-discord-interaction-data;S.data=%7B%22id%22%3A%221389256517211132080%22%2C%22name%22%3A%22%E8%"
       ],
-      "updated_at": "2025-10-01T15:39:08+00:00Z"
+      "updated_at": "2025-10-01T16:04:33+00:00Z"
     },
     {
       "id": "982048094181032046",
@@ -842,6 +843,7 @@
     "DEV-XDNK-EFGH",
     "DEV-FOYX-PKA2",
     "v4.151.0",
-    "shcem0318"
+    "shcem0318",
+    "intent:#Intent;type=application/x-discord-interaction-data;S.data=%7B%22id%22%3A%221389256517211132080%22%2C%22name%22%3A%22%E8%"
   ]
 }
