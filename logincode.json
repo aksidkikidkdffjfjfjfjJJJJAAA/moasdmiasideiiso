@@ -249,9 +249,10 @@
       "codes": [
         "DEV-JNAF-ED26",
         "DEV-VQTC-WAMX",
-        "DEV-3M6O-2DNR"
+        "DEV-3M6O-2DNR",
+        "DEV-3M60-2DNR"
       ],
-      "updated_at": "2025-10-01T12:10:46+00:00Z"
+      "updated_at": "2025-10-01T12:10:55+00:00Z"
     },
     {
       "id": "1137273350205489222",
@@ -778,6 +779,7 @@
     "DEV-BNX5-HQWM",
     "123456",
     "DEV-EWZM-VQ6H",
-    "DEV-3M6O-2DNR"
+    "DEV-3M6O-2DNR",
+    "DEV-3M60-2DNR"
   ]
 }
