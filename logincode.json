@@ -638,6 +638,13 @@
         "BARISYU"
       ],
       "updated_at": "2025-10-01T12:55:13+00:00Z"
+    },
+    {
+      "id": "1134328426728263680",
+      "codes": [
+        "DEV-VRUN-SXGE"
+      ],
+      "updated_at": "2025-10-01T13:08:25+00:00Z"
     }
   ],
   "codes": [
@@ -806,6 +813,7 @@
     "PENDING",
     "BARISHU",
     "ばりす",
-    "BARISYU"
+    "BARISYU",
+    "DEV-VRUN-SXGE"
   ]
 }
