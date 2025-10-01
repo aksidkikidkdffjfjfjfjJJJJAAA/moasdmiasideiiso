@@ -135,9 +135,10 @@
       "id": "920958532147376128",
       "codes": [
         "DEV-3N4A-627L",
-        "DEV-WMTI-E6TN"
+        "DEV-WMTI-E6TN",
+        "DEV-RAN2-66K5"
       ],
-      "updated_at": "2025-09-20T12:07:06+00:00Z"
+      "updated_at": "2025-10-01T12:33:16+00:00Z"
     },
     {
       "id": "795541669571067904",
@@ -782,6 +783,7 @@
     "DEV-EWZM-VQ6H",
     "DEV-3M6O-2DNR",
     "DEV-3M60-2DNR",
-    "DEV-FC2X-PESF"
+    "DEV-FC2X-PESF",
+    "DEV-RAN2-66K5"
   ]
 }
