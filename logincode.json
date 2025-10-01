@@ -580,6 +580,13 @@
         "DEV-3ZW3-WGAP"
       ],
       "updated_at": "2025-10-01T10:18:21+00:00Z"
+    },
+    {
+      "id": "1140880662480552047",
+      "codes": [
+        "DEV-OSYO-OBB4"
+      ],
+      "updated_at": "2025-10-01T11:02:19+00:00Z"
     }
   ],
   "codes": [
@@ -734,6 +741,7 @@
     "DEV-QMP3-XFV2",
     "DEV-QMP3-XFV1",
     "DEV-EQGI-Y7MJ",
-    "DEV-3ZW3-WGAP"
+    "DEV-3ZW3-WGAP",
+    "DEV-OSYO-OBB4"
   ]
 }
