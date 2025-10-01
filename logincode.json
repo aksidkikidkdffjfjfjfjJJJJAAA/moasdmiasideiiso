@@ -566,6 +566,13 @@
         "DEV-QMP3-XFV1"
       ],
       "updated_at": "2025-10-01T08:58:59+00:00Z"
+    },
+    {
+      "id": "1112349704664137820",
+      "codes": [
+        "DEV-EQGI-Y7MJ"
+      ],
+      "updated_at": "2025-10-01T09:33:15+00:00Z"
     }
   ],
   "codes": [
@@ -718,6 +725,7 @@
     "DEV-45VV-EOKQ",
     "DEV-WARQ-VG6K",
     "DEV-QMP3-XFV2",
-    "DEV-QMP3-XFV1"
+    "DEV-QMP3-XFV1",
+    "DEV-EQGI-Y7MJ"
   ]
 }
