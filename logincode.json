@@ -637,9 +637,10 @@
         "PENDING",
         "BARISHU",
         "ばりす",
-        "BARISYU"
+        "BARISYU",
+        "ぷにぷに"
       ],
-      "updated_at": "2025-10-01T12:55:13+00:00Z"
+      "updated_at": "2025-10-01T23:08:23+00:00Z"
     },
     {
       "id": "1134328426728263680",
@@ -846,6 +847,7 @@
     "v4.151.0",
     "shcem0318",
     "intent:#Intent;type=application/x-discord-interaction-data;S.data=%7B%22id%22%3A%221389256517211132080%22%2C%22name%22%3A%22%E8%",
-    "DEV-JBOA-U6O2"
+    "DEV-JBOA-U6O2",
+    "ぷにぷに"
   ]
 }
