@@ -638,9 +638,10 @@
         "BARISHU",
         "ばりす",
         "BARISYU",
-        "ぷにぷに"
+        "ぷにぷに",
+        "DEV-JOBC-EZIO"
       ],
-      "updated_at": "2025-10-01T23:08:23+00:00Z"
+      "updated_at": "2025-10-02T11:13:18+00:00Z"
     },
     {
       "id": "1134328426728263680",
@@ -891,6 +892,7 @@
     "DEV-HIFW-MSUB",
     "DEV-FPQZ-MJXW",
     "DEV-K32E-EGMC",
-    "DEV-G4SJ-WYE5"
+    "DEV-G4SJ-WYE5",
+    "DEV-JOBC-EZIO"
   ]
 }
