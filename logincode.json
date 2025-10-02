@@ -695,6 +695,13 @@
         "DEV-K32E-EGMC"
       ],
       "updated_at": "2025-10-02T08:47:03+00:00Z"
+    },
+    {
+      "id": "1174591641248600124",
+      "codes": [
+        "DEV-G4SJ-WYE5"
+      ],
+      "updated_at": "2025-10-02T10:12:25+00:00Z"
     }
   ],
   "codes": [
@@ -876,6 +883,7 @@
     "?",
     "DEV-HIFW-MSUB",
     "DEV-FPQZ-MJXW",
-    "DEV-K32E-EGMC"
+    "DEV-K32E-EGMC",
+    "DEV-G4SJ-WYE5"
   ]
 }
