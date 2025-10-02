@@ -677,9 +677,10 @@
       "id": "1074590198475796620",
       "codes": [
         "DEV-DZOT-6Z57",
-        "DEV-HIFW-MSUB"
+        "DEV-HIFW-MSUB",
+        "DEV-FPQZ-MJXW"
       ],
-      "updated_at": "2025-10-02T07:10:56+00:00Z"
+      "updated_at": "2025-10-02T08:11:49+00:00Z"
     },
     {
       "id": "1072132132572508251",
@@ -866,6 +867,7 @@
     "ぷにぷに",
     "DEV-DZOT-6Z57",
     "?",
-    "DEV-HIFW-MSUB"
+    "DEV-HIFW-MSUB",
+    "DEV-FPQZ-MJXW"
   ]
 }
