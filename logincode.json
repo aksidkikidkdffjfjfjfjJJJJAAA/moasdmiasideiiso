@@ -688,6 +688,13 @@
         "?"
       ],
       "updated_at": "2025-10-02T07:06:09+00:00Z"
+    },
+    {
+      "id": "1253263915765202955",
+      "codes": [
+        "DEV-K32E-EGMC"
+      ],
+      "updated_at": "2025-10-02T08:47:03+00:00Z"
     }
   ],
   "codes": [
@@ -868,6 +875,7 @@
     "DEV-DZOT-6Z57",
     "?",
     "DEV-HIFW-MSUB",
-    "DEV-FPQZ-MJXW"
+    "DEV-FPQZ-MJXW",
+    "DEV-K32E-EGMC"
   ]
 }
