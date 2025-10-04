@@ -770,9 +770,10 @@
     {
       "id": "1306948668850700298",
       "codes": [
-        "ABCDE"
+        "ABCDE",
+        "12345"
       ],
-      "updated_at": "2025-10-04T07:29:18+00:00Z"
+      "updated_at": "2025-10-04T07:49:23+00:00Z"
     }
   ],
   "codes": [
@@ -971,6 +972,7 @@
     "DEV-7PSB-DX3C",
     "DEV-L2BP-ZDU2",
     "DEB-TBL6-2RS2",
-    "DEV-TBL6-2RS2"
+    "DEV-TBL6-2RS2",
+    "12345"
   ]
 }
