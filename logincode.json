@@ -760,9 +760,10 @@
     {
       "id": "1278353771361210472",
       "codes": [
-        "DEV-7PSB-DX3C"
+        "DEV-7PSB-DX3C",
+        "DEV-L2BP-ZDU2"
       ],
-      "updated_at": "2025-10-04T05:31:22+00:00Z"
+      "updated_at": "2025-10-04T05:32:48+00:00Z"
     }
   ],
   "codes": [
@@ -958,6 +959,7 @@
     "zx",
     "DEV-5F6C-B2YM",
     "DEV-URSN-22SS",
-    "DEV-7PSB-DX3C"
+    "DEV-7PSB-DX3C",
+    "DEV-L2BP-ZDU2"
   ]
 }
