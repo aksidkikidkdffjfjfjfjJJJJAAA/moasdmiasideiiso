@@ -149,9 +149,10 @@
       "codes": [
         "DEV-EHWN-LEZY",
         "DEV-2CKT-VJXF",
-        "DEV-JDX3-M6GS"
+        "DEV-JDX3-M6GS",
+        "DEV-PD2F-EO7J"
       ],
-      "updated_at": "2025-10-04T16:05:23+00:00Z"
+      "updated_at": "2025-10-04T16:11:51+00:00Z"
     },
     {
       "id": "988045396825763940",
@@ -987,6 +988,7 @@
     "ABC",
     "DEV-R63H-ONMA",
     "DEV-2CKT-VJXF",
-    "DEV-JDX3-M6GS"
+    "DEV-JDX3-M6GS",
+    "DEV-PD2F-EO7J"
   ]
 }
