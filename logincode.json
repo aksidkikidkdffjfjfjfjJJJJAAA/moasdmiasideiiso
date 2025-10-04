@@ -707,9 +707,10 @@
       "id": "1174591641248600124",
       "codes": [
         "DEV-G4SJ-WYE5",
-        "DEB-TBL6-2RS2"
+        "DEB-TBL6-2RS2",
+        "DEV-TBL6-2RS2"
       ],
-      "updated_at": "2025-10-04T06:20:21+00:00Z"
+      "updated_at": "2025-10-04T06:27:56+00:00Z"
     },
     {
       "id": "1422966835220975718",
@@ -962,6 +963,7 @@
     "DEV-URSN-22SS",
     "DEV-7PSB-DX3C",
     "DEV-L2BP-ZDU2",
-    "DEB-TBL6-2RS2"
+    "DEB-TBL6-2RS2",
+    "DEV-TBL6-2RS2"
   ]
 }
