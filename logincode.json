@@ -705,9 +705,10 @@
     {
       "id": "1253263915765202955",
       "codes": [
-        "DEV-K32E-EGMC"
+        "DEV-K32E-EGMC",
+        "DEV-TAYK-SGY5"
       ],
-      "updated_at": "2025-10-02T08:47:03+00:00Z"
+      "updated_at": "2025-10-06T08:07:20+00:00Z"
     },
     {
       "id": "1174591641248600124",
@@ -1027,6 +1028,7 @@
     "ModMenu",
     "DEV-QINV-HQYW",
     "DEV-P4MQ-UGAI",
-    "DEV-JIJ6-2TZU"
+    "DEV-JIJ6-2TZU",
+    "DEV-TAYK-SGY5"
   ]
 }
