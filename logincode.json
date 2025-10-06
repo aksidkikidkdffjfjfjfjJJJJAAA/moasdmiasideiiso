@@ -707,9 +707,10 @@
       "codes": [
         "DEV-K32E-EGMC",
         "DEV-TAYK-SGY5",
-        "DEV-TOSH-J520"
+        "DEV-TOSH-J520",
+        "DEV-T0SH-J520"
       ],
-      "updated_at": "2025-10-06T08:34:03+00:00Z"
+      "updated_at": "2025-10-06T08:35:08+00:00Z"
     },
     {
       "id": "1174591641248600124",
@@ -1031,6 +1032,7 @@
     "DEV-P4MQ-UGAI",
     "DEV-JIJ6-2TZU",
     "DEV-TAYK-SGY5",
-    "DEV-TOSH-J520"
+    "DEV-TOSH-J520",
+    "DEV-T0SH-J520"
   ]
 }
