@@ -899,9 +899,10 @@
       "codes": [
         "# ⬆コード認証 ## [ModMenu┆v4.151.0](https://6.gigafile.nu/0107-ffe9909ae962be6ae43d67e3e08fa4aa3)",
         "DEV-JTK5-FKOG",
-        "https://6.gigafile.nu/0107-ffe9909ae962be6ae43d67e3e08fa4aa3"
+        "https://6.gigafile.nu/0107-ffe9909ae962be6ae43d67e3e08fa4aa3",
+        "DEV-XGQ3-JEM7"
       ],
-      "updated_at": "2025-10-11T17:12:47+00:00Z"
+      "updated_at": "2025-10-12T06:39:43+00:00Z"
     },
     {
       "id": "1161255891358720090",
@@ -1154,6 +1155,7 @@
     "DEV-EMDT-W52X",
     "DEV-7I7I-F6C2",
     "DEV-6E3Z-GLEJ",
-    "DEV-YKR6-QTKL"
+    "DEV-YKR6-QTKL",
+    "DEV-XGQ3-JEM7"
   ]
 }
