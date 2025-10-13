@@ -911,9 +911,10 @@
       "codes": [
         "DEV-EMDT-W52X",
         "DEV-7I7I-F6C2",
-        "DEV-YKR6-QTKL"
+        "DEV-YKR6-QTKL",
+        "DEV-VALI-3M2L"
       ],
-      "updated_at": "2025-10-12T04:48:50+00:00Z"
+      "updated_at": "2025-10-13T00:31:48+00:00Z"
     }
   ],
   "codes": [
@@ -1160,6 +1161,7 @@
     "DEV-YKR6-QTKL",
     "DEV-XGQ3-JEM7",
     "DEV-BIVI-IP64",
-    "DEV-UZPD-QPMI"
+    "DEV-UZPD-QPMI",
+    "DEV-VALI-3M2L"
   ]
 }
