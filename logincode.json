@@ -915,6 +915,13 @@
         "DEV-VALI-3M2L"
       ],
       "updated_at": "2025-10-13T00:31:48+00:00Z"
+    },
+    {
+      "id": "1352239517482090579",
+      "codes": [
+        "DEV-HDQ3-HMET"
+      ],
+      "updated_at": "2025-10-13T01:34:14+00:00Z"
     }
   ],
   "codes": [
@@ -1162,6 +1169,7 @@
     "DEV-XGQ3-JEM7",
     "DEV-BIVI-IP64",
     "DEV-UZPD-QPMI",
-    "DEV-VALI-3M2L"
+    "DEV-VALI-3M2L",
+    "DEV-HDQ3-HMET"
   ]
 }
