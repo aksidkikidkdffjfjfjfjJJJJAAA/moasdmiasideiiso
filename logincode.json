@@ -446,9 +446,10 @@
       "codes": [
         "test",
         "DEV-FDLA-U4PZ",
-        "DEV-4RH4-OQJG"
+        "DEV-4RH4-OQJG",
+        "DEV-3GK2-WRXF"
       ],
-      "updated_at": "2025-09-27T10:46:05+00:00Z"
+      "updated_at": "2025-10-18T03:22:36+00:00Z"
     },
     {
       "id": "1257898349504499787",
@@ -1245,6 +1246,7 @@
     "9004",
     "68BC8",
     "DEV-2ZV7-GQGC",
-    "KENDOU"
+    "KENDOU",
+    "DEV-3GK2-WRXF"
   ]
 }
