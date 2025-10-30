@@ -1095,6 +1095,13 @@
         "ModMenu"
       ],
       "updated_at": "2025-10-30T07:00:19+00:00Z"
+    },
+    {
+      "id": "1429128842127216854",
+      "codes": [
+        "124092"
+      ],
+      "updated_at": "2025-10-30T10:18:20+00:00Z"
     }
   ],
   "codes": [
@@ -1362,6 +1369,7 @@
     "DEV-HQFB-YBRE-IP-ZHLY",
     "Tapi",
     "iy10it091103",
-    "https://www.winzipsystemtools.com/malware-protector/?gad_source=5&gad_campaignid=19554370716&gclid=EAIaIQobChMI17q7zK7EkAMVcEfCB"
+    "https://www.winzipsystemtools.com/malware-protector/?gad_source=5&gad_campaignid=19554370716&gclid=EAIaIQobChMI17q7zK7EkAMVcEfCB",
+    "124092"
   ]
 }
