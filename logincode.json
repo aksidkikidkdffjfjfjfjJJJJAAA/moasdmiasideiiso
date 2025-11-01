@@ -1116,6 +1116,13 @@
         "PENDING"
       ],
       "updated_at": "2025-11-01T02:36:42+00:00Z"
+    },
+    {
+      "id": "1127746434809221180",
+      "codes": [
+        "ぷにぷにModMenu最新版(ぷにサイズ変更検知回避済み)"
+      ],
+      "updated_at": "2025-11-01T06:48:16+00:00Z"
     }
   ],
   "codes": [
@@ -1384,6 +1391,7 @@
     "Tapi",
     "iy10it091103",
     "https://www.winzipsystemtools.com/malware-protector/?gad_source=5&gad_campaignid=19554370716&gclid=EAIaIQobChMI17q7zK7EkAMVcEfCB",
-    "124092"
+    "124092",
+    "ぷにぷにModMenu最新版(ぷにサイズ変更検知回避済み)"
   ]
 }
