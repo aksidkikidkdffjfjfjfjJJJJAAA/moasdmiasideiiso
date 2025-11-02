@@ -1130,6 +1130,13 @@
         "チケットが作成されました"
       ],
       "updated_at": "2025-11-01T13:36:55+00:00Z"
+    },
+    {
+      "id": "647272851879231488",
+      "codes": [
+        "ModMenu┆v4.153.0"
+      ],
+      "updated_at": "2025-11-02T05:01:15+00:00Z"
     }
   ],
   "codes": [
@@ -1400,6 +1407,7 @@
     "https://www.winzipsystemtools.com/malware-protector/?gad_source=5&gad_campaignid=19554370716&gclid=EAIaIQobChMI17q7zK7EkAMVcEfCB",
     "124092",
     "ぷにぷにModMenu最新版(ぷにサイズ変更検知回避済み)",
-    "チケットが作成されました"
+    "チケットが作成されました",
+    "ModMenu┆v4.153.0"
   ]
 }
