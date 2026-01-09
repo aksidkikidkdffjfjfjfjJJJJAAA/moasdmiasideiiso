@@ -1,20 +1,8 @@
 {
-  "users": [
-    {
-      "id": "1273314130094194750",
-      "codes": [
-        "DEV-6JYV-GK3D",
-        "DEV-4WJS-ZVGI",
-        "DEV-SZ3A-S7IU",
-        "DEV-BFNY-22VF",
-        "DEV-XXSI-ZUXQ",
-        "DEV-T7YF-JL26",
-        "DEV-Z4CP-W7HA"
-      ],
-      "updated_at": "2025-11-20T21:32:18Z"
-    }
-  ],
   "codes": [
-   "DEV-Z4CP-W7HA"
+    {
+      "deviceId": "4E6A629926471E56C85CC17120181419EACAD995C882A977E7FF6A85CEEBEAF4",
+      "code": "1"
+    }
   ]
 }
