@@ -1,8 +1,11 @@
 {
-  "codes": [
-    {
-      "deviceId": "4E6A629926471E56C85CC17120181419EACAD995C882A977E7FF6A85CEEBEAF4",
-      "code": "1"
-    }
+  "allow": [
+    "1",
+    "2",
+    "3"
+  ],
+  "block": [
+    "11",
+    "12"
   ]
 }
